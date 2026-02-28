@@ -1,0 +1,50 @@
+{
+  "clientId": "efa5ed7b-03b7-444f-9d3b-d3c48e55ece7",
+  "userId": "",
+  "authedUserIDs": [],
+  "app": {
+    "logLevel": 1,
+    "lastTimeClearLogFile": 1770648037911,
+    "enableColorSpaceSrgb": false,
+    "visibleNewProjectBtn": true,
+    "useZenity": false,
+    "disableThemes": false,
+    "panelHeight": 40,
+    "saveLastOpenedTabs": true,
+    "exportDir": "/home/sibam/Pictures/Figma",
+    "commandSwitches": [
+      {
+        "switch": "enable-gpu-rasterization"
+      },
+      {
+        "switch": "enable-experimental-canvas-features"
+      },
+      {
+        "switch": "use-vulkan"
+      }
+    ],
+    "fontDirs": [
+      "/usr/share/fonts",
+      "/usr/local/share/fonts",
+      "/run/host/fonts",
+      "/run/host/user-fonts",
+      "/home/sibam/.local/share/fonts"
+    ],
+    "recentlyClosedTabs": [],
+    "windowsState": {},
+    "lastOpenedTabs": {},
+    "featureFlags": {},
+    "savedExtensions": [],
+    "themeDropdownOpen": true,
+    "creatorsThemesDropdownOpen": false,
+    "useOldPreviewer": false,
+    "dontShowTutorialCreator": false
+  },
+  "theme": {
+    "currentTheme": "0"
+  },
+  "ui": {
+    "scalePanel": 1,
+    "scaleFigmaUI": 1
+  }
+}

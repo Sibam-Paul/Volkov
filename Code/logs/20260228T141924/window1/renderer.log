@@ -1,0 +1,41 @@
+2026-02-28 14:19:25.989 [info] Started local extension host with pid 22648.
+2026-02-28 14:19:27.543 [info] MCP Registry configured: https://api.mcp.github.com
+2026-02-28 14:19:27.592 [error] [Extension Host] (node:22648) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-28 14:19:27.620 [error] [Extension Host] (node:22648) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-02-28 14:19:28.002 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-02-28 14:19:29.127 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:786042)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-02-28 14:19:29.297 [error] chatParticipant must be declared in package.json: claude-code
+2026-02-28 14:19:29.509 [info] [perf] Render performance baseline is 19ms
+2026-02-28 14:19:30.016 [error] Failed to fetch MCP registry providers Server returned 404
+2026-02-28 14:19:30.121 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 14:19:30.243 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:786042)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-02-28 14:19:31.299 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 14:19:32.300 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 14:19:34.075 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 14:21:13.276 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 14:21:45.394 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-28 14:21:55.851 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:786042)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-02-28 14:21:56.906 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 14:22:18.156 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-28 14:23:22.614 [error] Throttler is disposed: Error: Throttler is disposed
+    at ym.queue (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:72772)
+    at Vwt.refresh (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2779:118144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2779:116790
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:20869
+    at _8._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:7871)
+    at _8.l (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5817)
+    at _8.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6277)
+    at Vb.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11134)
+    at q8.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:105478)
+    at qi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104767)
+2026-02-28 14:25:34.205 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

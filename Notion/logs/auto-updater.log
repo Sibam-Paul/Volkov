@@ -1,0 +1,12 @@
+[2026-01-26 11:55:11.508] [info]  (auto-updater)         Checking for update
+[2026-01-26 11:55:11.508] [info]  (auto-updater)         Checking for update
+[2026-01-26 11:55:11.514] [error] (auto-updater)         Error: Error: ENOENT: no such file or directory, open '/usr/lib/electron37/resources/app-update.yml'
+[2026-01-26 11:55:11.517] [warn]  (auto-updater)         Error checking for update Error: ENOENT: no such file or directory, open '/usr/lib/electron37/resources/app-update.yml'
+[2026-01-26 17:18:24.506] [info]  (auto-updater)         Checking for update
+[2026-01-26 17:18:24.511] [info]  (auto-updater)         Checking for update
+[2026-01-26 17:18:24.529] [error] (auto-updater)         Error: Error: ENOENT: no such file or directory, open '/usr/lib/electron37/resources/app-update.yml'
+[2026-01-26 17:18:24.537] [warn]  (auto-updater)         Error checking for update Error: ENOENT: no such file or directory, open '/usr/lib/electron37/resources/app-update.yml'
+[2026-01-27 06:03:23.089] [info]  (auto-updater)         Checking for update
+[2026-01-27 06:03:23.090] [info]  (auto-updater)         Checking for update
+[2026-01-27 06:03:23.108] [error] (auto-updater)         Error: Error: ENOENT: no such file or directory, open '/usr/lib/electron37/resources/app-update.yml'
+[2026-01-27 06:03:23.115] [warn]  (auto-updater)         Error checking for update Error: ENOENT: no such file or directory, open '/usr/lib/electron37/resources/app-update.yml'

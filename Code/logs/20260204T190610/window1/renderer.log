@@ -1,0 +1,37 @@
+2026-02-04 19:06:12.960 [info] Started local extension host with pid 8711.
+2026-02-04 19:06:14.452 [info] MCP Registry configured: https://api.mcp.github.com
+2026-02-04 19:06:14.782 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-02-04 19:06:15.383 [error] [Extension Host] (node:8711) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-04 19:06:15.393 [error] [Extension Host] (node:8711) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-02-04 19:06:15.983 [info] [perf] Render performance baseline is 36ms
+2026-02-04 19:06:16.828 [error] chatParticipant must be declared in package.json: claude-code
+2026-02-04 19:06:17.550 [error] Failed to fetch MCP registry providers Server returned 404
+2026-02-04 19:11:55.661 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-04 19:19:44.510 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-04 19:28:11.205 [error] Cancelled: Canceled: Canceled
+    at MZe.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1363:35145)
+    at async MZe.K (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1363:33869)
+    at async MZe.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1363:24589)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1363:23954
+    at async Promise.all (index 1)
+    at async MZe.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1363:23908)
+    at async MZe.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1363:22571)
+    at async Npt.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2524:15150)
+    at async xsn.Rc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2520:16882)
+    at async xsn.$c (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2520:19526)
+2026-02-04 19:30:27.634 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:786042)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-02-04 19:30:28.634 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-04 19:30:29.650 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:786042)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-02-04 19:30:30.652 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-04 19:30:30.793 [error] [Extension Host] Error: Git error
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:786042)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-02-04 19:30:31.793 [error] An unknown error occurred. Please consult the log for more details.

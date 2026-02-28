@@ -1,0 +1,7 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true
+}

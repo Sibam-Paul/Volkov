@@ -1,0 +1,227 @@
+2026-02-04 19:28:36.162 [info] Starting Python Locator /home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python-env-tools/bin/pet server
+2026-02-04 19:28:36.465 [info] Discovered env: /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:28:36.470 [info] Discovered env: /bin/python
+2026-02-04 19:28:36.471 [info] Discovered env: /usr/bin/python
+2026-02-04 19:28:36.472 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-02-04 19:28:36.472 [info] Discovered env: /sbin/python
+2026-02-04 19:28:36.473 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-02-04 19:28:36.473 [info] Discovered env: /usr/sbin/python
+2026-02-04 19:28:36.475 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-02-04 19:28:36.475 [info] Discovered env: /sbin/python3
+2026-02-04 19:28:36.476 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-02-04 19:28:36.476 [info] Discovered env: /usr/sbin/python3
+2026-02-04 19:28:36.497 [info] Env ("/usr/sbin/python3.14") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.14", prefix: "/usr", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.14"]) } and reported as Some(GlobalPaths)
+2026-02-04 19:28:36.497 [info] Discovered env: /usr/sbin/python3.14
+2026-02-04 19:28:36.503 [info] Env ("/sbin/python3.14") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.14", prefix: "/usr", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.14"]) } and reported as Some(GlobalPaths)
+2026-02-04 19:28:36.504 [info] Discovered env: /sbin/python3.14
+2026-02-04 19:28:36.517 [info] Locator Conda took 122.309874ms
+2026-02-04 19:28:36.517 [info] Locator Homebrew took 198.243µs
+2026-02-04 19:28:36.517 [info] Locator LinuxGlobal took 199.948129ms
+2026-02-04 19:28:36.517 [info] Locator PipEnv took 208.181µs
+2026-02-04 19:28:36.517 [info] Locator Pixi took 91.031µs
+2026-02-04 19:28:36.517 [info] Locator Poetry took 643.769µs
+2026-02-04 19:28:36.518 [info] Locator PyEnv took 5.12574ms
+2026-02-04 19:28:36.518 [info] Locator Uv took 118.072µs
+2026-02-04 19:28:36.518 [info] Locator Venv took 237.957µs
+2026-02-04 19:28:36.518 [info] Locator VirtualEnv took 197.501µs
+2026-02-04 19:28:36.518 [info] Locator VirtualEnvWrapper took 58.45µs
+2026-02-04 19:28:36.518 [info] Locator GlobalVirtualEnvs took 204.114µs
+2026-02-04 19:28:36.518 [info] Locator Locators took 202.320506ms
+2026-02-04 19:28:36.518 [info] Locator Path took 382.485406ms
+2026-02-04 19:28:36.518 [info] Locator Workspaces took 91.642596ms
+2026-02-04 19:28:36.518 [info] Refresh completed in 382ms
+2026-02-04 19:28:36.569 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:29:38.884 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:29:38.886 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:30:12.368 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:30:12.368 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:30:12.454 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:30:44.859 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:32:52.915 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:36:42.677 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:37:52.976 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:37:52.976 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:41:10.724 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:41:10.725 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:49:22.127 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:49:22.128 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:50:25.102 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:50:25.104 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:50:45.932 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 19:50:45.932 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:51:19.854 [info] Env ("/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", prefix: "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv", version: "3.14.2.final.0", is64_bit: true, symlinks: Some(["/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11", "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"]) } and reported as None
+2026-02-04 19:51:19.854 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 19:51:20.088 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 20:06:21.988 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 20:06:21.988 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 20:06:47.070 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 20:06:47.071 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 20:08:09.188 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 20:08:09.188 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 20:10:47.707 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 20:10:47.707 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 20:11:20.916 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 20:11:20.916 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+2026-02-04 20:11:52.971 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.11.9
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python
+   Version     : 3.14.2.final.0
+   Prefix      : /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+   Architecture: x64
+   Symlinks    : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.11"
+               : "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python3.14"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-02-04 20:11:52.972 [info] Resolved Python Environment /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python

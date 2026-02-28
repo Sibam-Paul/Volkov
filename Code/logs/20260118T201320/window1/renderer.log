@@ -1,0 +1,19 @@
+2026-01-18 20:13:22.315 [info] Started local extension host with pid 68508.
+2026-01-18 20:13:24.036 [error] [Extension Host] (node:68508) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-18 20:13:24.036 [error] [Extension Host] (node:68508) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-18 20:13:24.302 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-18 20:13:24.305 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-18 20:13:25.202 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-18 20:13:26.444 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-18 20:13:31.232 [info] [perf] Render performance baseline is 18ms
+2026-01-18 20:13:31.892 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:576:11184
+2026-01-18 20:13:32.917 [info] Extension host (LocalProcess pid: 68508) is unresponsive.
+2026-01-18 20:13:33.651 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-01-18 20:13:34.270 [info] Extension host (LocalProcess pid: 68508) is responsive.
+2026-01-18 20:13:34.271 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-18 20:13:34.367 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 92.27430625324509% of 574.032ms, saved PROFILE here: 'file:///tmp/exthost-21395a.cpuprofile'
+2026-01-18 20:15:36.226 [error] [text file model] handleSaveError(12) - exit - resulted in a save error: Error: Unable to write file '/etc/bluetooth/main.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/bluetooth/main.conf') file:///etc/bluetooth/main.conf
+2026-01-18 20:16:33.891 [error] [text file model] handleSaveError(13) - exit - resulted in a save error: Error: Unable to write file '/etc/bluetooth/main.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/bluetooth/main.conf') file:///etc/bluetooth/main.conf
+2026-01-18 20:16:47.127 [error] [text file model] handleSaveError(19) - exit - resulted in a save error: Error: Unable to write file '/etc/bluetooth/main.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/bluetooth/main.conf') file:///etc/bluetooth/main.conf

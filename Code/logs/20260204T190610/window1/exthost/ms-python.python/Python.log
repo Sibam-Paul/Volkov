@@ -1,0 +1,90 @@
+2026-02-04 19:28:36.098 [info] Experiment 'pythonSurveyNotification' is active
+2026-02-04 19:28:36.115 [info] Native locator: Refresh started
+2026-02-04 19:28:36.215 [info] Native locator: Refresh started
+2026-02-04 19:28:36.261 [info] > pyenv which python
+2026-02-04 19:28:36.261 [info] cwd: .
+2026-02-04 19:28:36.524 [info] Native locator: Refresh finished in 404 ms
+2026-02-04 19:28:36.572 [info] Python interpreter path: ./venv/bin/python
+2026-02-04 19:28:39.742 [info] Starting Pylance language server.
+2026-02-04 20:08:09.202 [info] Running installed packages checker:  {
+  id: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python',
+  sysPrefix: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python',
+  path: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.14.2',
+    major: 3,
+    minor: 14,
+    patch: 2,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.14.2 (venv)',
+  detailedDisplayName: 'Python 3.14.2 (venv)',
+  type: 'Virtual'
+} /home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/requirements.txt
+2026-02-04 20:08:09.202 [info] > ./venv/bin/python ~/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2026-02-04 20:08:09.487 [error] Installed packages check error:
+ Traceback (most recent call last):
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 132, in <module>
+    main()
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 127, in main
+    diagnostics = get_diagnostics(pathlib.Path(args.FILEPATH))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 120, in get_diagnostics
+    diagnostics = process_requirements(req_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 48, in process_requirements
+    for n, line in enumerate(req_file.read_text(encoding="utf-8").splitlines()):
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sibam/.pyenv/versions/3.11.9/lib/python3.11/pathlib.py", line 1059, in read_text
+    return f.read()
+           ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+2026-02-04 20:08:17.273 [info] Running installed packages checker:  {
+  id: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python',
+  sysPrefix: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python',
+  path: '/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.14.2',
+    major: 3,
+    minor: 14,
+    patch: 2,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.14.2 (venv)',
+  detailedDisplayName: 'Python 3.14.2 (venv)',
+  type: 'Virtual'
+} /home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/requirements.txt
+2026-02-04 20:08:17.273 [info] > ./venv/bin/python ~/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2026-02-04 20:08:17.482 [error] Installed packages check error:
+ Traceback (most recent call last):
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 132, in <module>
+    main()
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 127, in main
+    diagnostics = get_diagnostics(pathlib.Path(args.FILEPATH))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 120, in get_diagnostics
+    diagnostics = process_requirements(req_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64/python_files/installed_check.py", line 48, in process_requirements
+    for n, line in enumerate(req_file.read_text(encoding="utf-8").splitlines()):
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sibam/.pyenv/versions/3.11.9/lib/python3.11/pathlib.py", line 1059, in read_text
+    return f.read()
+           ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+

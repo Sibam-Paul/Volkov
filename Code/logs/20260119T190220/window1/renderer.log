@@ -1,0 +1,14 @@
+2026-01-19 19:02:23.866 [info] Started local extension host with pid 9817.
+2026-01-19 19:02:26.753 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-19 19:02:27.014 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-19 19:02:27.358 [error] [Extension Host] (node:9817) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-19 19:02:27.361 [error] [Extension Host] (node:9817) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-19 19:02:29.301 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-19 19:02:29.443 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-19 19:02:31.841 [info] [perf] Render performance baseline is 27ms
+2026-01-19 19:02:41.211 [info] Extension host (LocalProcess pid: 9817) is unresponsive.
+2026-01-19 19:02:42.080 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-01-19 19:02:44.460 [info] Extension host (LocalProcess pid: 9817) is responsive.
+2026-01-19 19:02:44.461 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-19 19:02:44.552 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 96.71270826099315% of 2303.394ms, saved PROFILE here: 'file:///tmp/exthost-41f29f.cpuprofile'

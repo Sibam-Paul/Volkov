@@ -1,0 +1,12 @@
+2026/01/27-06:03:13.103 bd0 Reusing MANIFEST /home/sibam/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2026/01/27-06:03:13.115 bd0 Recovering log #15
+2026/01/27-06:03:13.116 bd0 Reusing old log /home/sibam/.config/Notion/Partitions/notion/Local Storage/leveldb/000015.log 
+2026/01/27-06:04:13.125 bd0 Level-0 table #20: started
+2026/01/27-06:04:13.143 bd0 Level-0 table #20: 605995 bytes OK
+2026/01/27-06:04:13.150 bd0 Delete type=0 #15
+2026/01/27-06:05:27.715 bd0 Level-0 table #22: started
+2026/01/27-06:05:27.733 bd0 Level-0 table #22: 317003 bytes OK
+2026/01/27-06:05:27.740 bd0 Delete type=0 #19
+2026/01/27-06:06:13.719 bd0 Level-0 table #24: started
+2026/01/27-06:06:13.738 bd0 Level-0 table #24: 307827 bytes OK
+2026/01/27-06:06:13.745 bd0 Delete type=0 #21

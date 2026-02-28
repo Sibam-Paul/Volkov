@@ -1,0 +1,5 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme"
+}

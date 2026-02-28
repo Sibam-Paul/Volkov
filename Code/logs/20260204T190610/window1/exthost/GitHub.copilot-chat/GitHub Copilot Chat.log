@@ -1,0 +1,65 @@
+2026-02-04 19:06:16.066 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-02-04 19:06:16.066 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-02-04 19:06:16.066 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-02-04 19:06:16.066 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-02-04 19:06:16.785 [error] Copilot extension not found
+2026-02-04 19:06:16.829 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/sibam/.vscode/extensions/github.copilot-chat-0.36.2/node_modules/@github/copilot/prebuilds/linux-x64
+2026-02-04 19:06:16.829 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/sibam/.vscode/extensions/github.copilot-chat-0.36.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-02-04 19:06:16.856 [info] Found 1 entries to copy: pty.node
+2026-02-04 19:06:16.860 [info] Logged in as Sibam-Paul
+2026-02-04 19:06:16.863 [info] Using the Electron fetcher.
+2026-02-04 19:06:16.865 [info] Found 1 entries to copy: rg
+2026-02-04 19:06:17.605 [info] Got Copilot token for Sibam-Paul
+2026-02-04 19:06:17.606 [info] Copilot Chat: 0.36.2, VS Code: 1.108.1
+2026-02-04 19:06:17.620 [info] activationBlocker from 'languageModelAccess' took for 876ms
+2026-02-04 19:06:17.704 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-02-04 19:06:17.704 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-04 19:06:17.725 [info] Registering default platform agent...
+2026-02-04 19:06:17.726 [info] activationBlocker from 'conversationFeature' took for 991ms
+2026-02-04 19:06:17.739 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-02-04 19:06:17.743 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-02-04 19:06:17.916 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-02-04 19:06:18.851 [info] Fetched model metadata in 2088ms 93ec41ff-46a4-4a32-9ba7-0ad51c30d16d
+2026-02-04 19:06:19.247 [info] Latest entry: ccreq:latest.copilotmd
+2026-02-04 19:06:19.248 [info] ccreq:d6589d5a.copilotmd | markdown
+2026-02-04 19:06:25.728 [info] Refetch model metadata: Succeeded in 1467ms 44fa382d-ff1c-4443-b245-d2f6db8cf44a (FE08:1AB58D:14BE2D:16E6E0:69834B58) using node-fetch with status 200.
+2026-02-04 19:06:26.990 [info] Refetch model metadata: Succeeded in 1262ms cf3c6698-8b32-41e9-a80b-59af90d553e3 (F8A2:37A879:16635D:188D59:69834B5A) using node-http with status 200.
+2026-02-04 19:06:27.821 [info] Refetch model metadata: Succeeded in 831ms e087b1f9-3a22-4f1a-a954-7703385880ef (F91C:FD592:151685:174249:69834B52) using electron-fetch with status 200.
+2026-02-04 19:35:10.521 [info] Logged in as Sibam-Paul
+2026-02-04 19:35:11.169 [info] Got Copilot token for Sibam-Paul
+2026-02-04 19:35:11.169 [info] Copilot Chat: 0.36.2, VS Code: 1.108.1
+2026-02-04 19:35:11.190 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-02-04 19:35:12.173 [info] Fetched model metadata in 984ms bade7a47-bc77-4a87-97bc-f3b2629200ae
+2026-02-04 19:35:12.415 [info] ccreq:531aed62.copilotmd | markdown
+2026-02-04 19:35:21.658 [info] message 0 returned. finish reason: [stop]
+2026-02-04 19:35:21.658 [info] request done: requestId: [fafd98b4-5042-4542-8bb6-b4a74b4ea5e0] model deployment ID: []
+2026-02-04 19:35:21.661 [info] ccreq:84665295.copilotmd | success | gpt-4.1-2025-04-14 | 11143ms | [debugCommandIdentifier]
+2026-02-04 20:08:13.884 [warning] [relatedFiles] unknown language pip-requirements
+2026-02-04 20:08:14.654 [info] [fetchCompletions] Request 18b86f64-0f8f-436f-a11c-4adcea2bbe5a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 401 status after 198.26871899981052ms
+2026-02-04 20:08:14.681 [warning] [fetchCompletions] Response status was 401: unauthorized: token expired
+
+2026-02-04 20:08:14.777 [info] Logged in as Sibam-Paul
+2026-02-04 20:08:15.631 [info] [fetchCompletions] Request 92965483-6afd-4882-811b-565a6c48ffc9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 401 status after 191.64522300008684ms
+2026-02-04 20:08:15.634 [warning] [fetchCompletions] Response status was 401: unauthorized: token expired
+
+2026-02-04 20:08:15.731 [info] Got Copilot token for Sibam-Paul
+2026-02-04 20:08:15.731 [info] Copilot Chat: 0.36.2, VS Code: 1.108.1
+2026-02-04 20:08:15.752 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-02-04 20:08:15.789 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-02-04 20:08:16.448 [info] [fetchCompletions] Request 09bc5e67-5ab4-43c7-8e79-f144316c07db at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 329.86875300016254ms
+2026-02-04 20:08:16.455 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 20:08:17.065 [info] Fetched model metadata in 1315ms 36c5843e-9032-430d-a385-69e240a72829
+2026-02-04 20:08:17.375 [info] ccreq:bb336fef.copilotmd | markdown
+2026-02-04 20:08:18.936 [info] message 0 returned. finish reason: [stop]
+2026-02-04 20:08:18.936 [info] request done: requestId: [3e049fb4-998a-4e2f-9769-a62451a10743] model deployment ID: []
+2026-02-04 20:08:19.397 [info] ccreq:215f17ec.copilotmd | success | copilot-nes-oct | 1061ms | [XtabProvider]
+2026-02-04 20:08:19.797 [info] message 0 returned. finish reason: [stop]
+2026-02-04 20:08:19.797 [info] request done: requestId: [9a2d2cc6-ebf7-410b-92d9-2b3f28624c1c] model deployment ID: []
+2026-02-04 20:08:20.160 [info] ccreq:907463a6.copilotmd | success | copilot-suggestions-himalia-001 | 755ms | [nes.nextCursorPosition]
+2026-02-04 20:08:20.164 [info] ccreq:a4167a4f.copilotmd | markdown
+2026-02-04 21:03:17.004 [info] Logged in as Sibam-Paul
+2026-02-04 21:03:17.849 [info] Got Copilot token for Sibam-Paul
+2026-02-04 21:03:17.849 [info] Copilot Chat: 0.36.2, VS Code: 1.108.1
+2026-02-04 21:03:17.857 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-02-04 21:03:19.046 [info] Fetched model metadata in 1190ms 892fac35-91e7-40ae-a07b-8e53e3a2699d
+2026-02-04 21:03:19.295 [info] ccreq:94a0b278.copilotmd | markdown

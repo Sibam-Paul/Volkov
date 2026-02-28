@@ -1,0 +1,361 @@
+2026-01-18 20:13:24.954 [info] [main] Log level: Info
+2026-01-18 20:13:24.954 [info] [main] Validating found git in: "git"
+2026-01-18 20:13:24.954 [info] [main] Using git "2.52.0" from "git"
+2026-01-18 20:13:24.954 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-18 20:13:24.954 [info] > git rev-parse --show-toplevel [31ms]
+2026-01-18 20:13:24.954 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:24.954 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:24.954 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:24.954 [info] > git rev-parse --show-toplevel [7ms]
+2026-01-18 20:13:24.954 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:24.954 [info] > git rev-parse --show-toplevel [56ms]
+2026-01-18 20:13:24.954 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:24.957 [info] > git rev-parse --show-toplevel [52ms]
+2026-01-18 20:13:24.957 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:24.990 [info] > git rev-parse --show-toplevel [4ms]
+2026-01-18 20:13:24.990 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.002 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.002 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.013 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:25.013 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.063 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-18 20:13:25.063 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.073 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.073 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.083 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.083 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.095 [info] > git rev-parse --show-toplevel [4ms]
+2026-01-18 20:13:25.095 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.105 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.114 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.125 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:25.125 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.134 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-18 20:13:25.134 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.188 [info] > git rev-parse --show-toplevel [44ms]
+2026-01-18 20:13:25.188 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.205 [info] > git rev-parse --show-toplevel [8ms]
+2026-01-18 20:13:25.205 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.219 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:25.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.230 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.244 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-01-18 20:13:25.257 [info] [Model][openRepository] Opened repository (path): /home/sibam/.oh-my-zsh
+2026-01-18 20:13:25.257 [info] [Model][openRepository] Opened repository (real path): /home/sibam/.oh-my-zsh
+2026-01-18 20:13:25.257 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:25.297 [info] > git rev-parse --show-toplevel [14ms]
+2026-01-18 20:13:25.297 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.297 [info] > git config --get commit.template [25ms]
+2026-01-18 20:13:25.327 [info] > git rev-parse --show-toplevel [16ms]
+2026-01-18 20:13:25.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2026-01-18 20:13:25.344 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:25.344 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.355 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:25.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.387 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-01-18 20:13:25.389 [info] > git rev-parse --show-toplevel [4ms]
+2026-01-18 20:13:25.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.401 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:25.413 [info] > git status -z -uall [48ms]
+2026-01-18 20:13:25.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2026-01-18 20:13:25.474 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [63ms]
+2026-01-18 20:13:25.480 [info] [Model][openRepository] Opened repository (path): /home/sibam/.tmuxifier
+2026-01-18 20:13:25.480 [info] [Model][openRepository] Opened repository (real path): /home/sibam/.tmuxifier
+2026-01-18 20:13:25.480 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:25.501 [info] > git config --get --local branch.master.vscode-merge-base [27ms]
+2026-01-18 20:13:25.513 [info] > git config --get commit.template [52ms]
+2026-01-18 20:13:25.515 [info] > git rev-parse --show-toplevel [15ms]
+2026-01-18 20:13:25.515 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.516 [info] > git config --get commit.template [25ms]
+2026-01-18 20:13:25.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [36ms]
+2026-01-18 20:13:25.829 [info] > git rev-parse --show-toplevel [282ms]
+2026-01-18 20:13:25.829 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:25.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [294ms]
+2026-01-18 20:13:25.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [271ms]
+2026-01-18 20:13:25.843 [info] > git merge-base refs/heads/master refs/remotes/origin/master [282ms]
+2026-01-18 20:13:25.866 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/.tmuxifier/.git/refs/remotes/origin/main'
+2026-01-18 20:13:26.156 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% ec14da72fbf8b5016bb1533d4af3ff3bb2ac7a19...refs/remotes/origin/master -- [304ms]
+2026-01-18 20:13:26.156 [info] > git rev-parse --show-toplevel [316ms]
+2026-01-18 20:13:26.156 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.176 [info] > git rev-parse refs/remotes/origin/main [310ms]
+2026-01-18 20:13:26.262 [info] > git status -z -uall [77ms]
+2026-01-18 20:13:26.262 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [68ms]
+2026-01-18 20:13:26.294 [info] > git rev-parse --show-toplevel [124ms]
+2026-01-18 20:13:26.294 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.319 [info] > git status -z -uall [87ms]
+2026-01-18 20:13:26.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2026-01-18 20:13:26.328 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [87ms]
+2026-01-18 20:13:26.335 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2026-01-18 20:13:26.344 [info] > git rev-parse --show-toplevel [27ms]
+2026-01-18 20:13:26.344 [info] > git config --get commit.template [36ms]
+2026-01-18 20:13:26.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [22ms]
+2026-01-18 20:13:26.386 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-01-18 20:13:26.395 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [31ms]
+2026-01-18 20:13:26.399 [info] [Model][openRepository] Opened repository (path): /home/sibam/Arch-Hyprland
+2026-01-18 20:13:26.399 [info] [Model][openRepository] Opened repository (real path): /home/sibam/Arch-Hyprland
+2026-01-18 20:13:26.399 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:26.418 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% f268c12f3f05202cfbfff706063e4efc133edca8...refs/remotes/origin/main -- [24ms]
+2026-01-18 20:13:26.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2026-01-18 20:13:26.427 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/.tmuxifier/.git/refs/remotes/origin/main'
+2026-01-18 20:13:26.428 [info] > git rev-parse --show-toplevel [11ms]
+2026-01-18 20:13:26.428 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.428 [info] > git config --get commit.template [20ms]
+2026-01-18 20:13:26.438 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2026-01-18 20:13:26.547 [info] > git status -z -uall [101ms]
+2026-01-18 20:13:26.547 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [93ms]
+2026-01-18 20:13:26.550 [info] > git rev-parse --show-toplevel [113ms]
+2026-01-18 20:13:26.550 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2026-01-18 20:13:26.578 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/Arch-Hyprland/.git/refs/remotes/origin/main'
+2026-01-18 20:13:26.579 [info] > git rev-parse --show-toplevel [14ms]
+2026-01-18 20:13:26.579 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.590 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2026-01-18 20:13:26.607 [info] > git status -z -uall [10ms]
+2026-01-18 20:13:26.608 [info] > git rev-parse --show-toplevel [20ms]
+2026-01-18 20:13:26.617 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-01-18 20:13:26.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2026-01-18 20:13:26.656 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [40ms]
+2026-01-18 20:13:26.660 [info] [Model][openRepository] Opened repository (path): /home/sibam/HyprFlux
+2026-01-18 20:13:26.661 [info] [Model][openRepository] Opened repository (real path): /home/sibam/HyprFlux
+2026-01-18 20:13:26.661 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:26.682 [info] > git config --get --local branch.main.vscode-merge-base [26ms]
+2026-01-18 20:13:26.691 [info] > git config --get commit.template [43ms]
+2026-01-18 20:13:26.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2026-01-18 20:13:26.709 [info] > git rev-parse --show-toplevel [31ms]
+2026-01-18 20:13:26.709 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.709 [info] > git config --get commit.template [39ms]
+2026-01-18 20:13:26.733 [info] > git merge-base refs/heads/main refs/remotes/origin/main [25ms]
+2026-01-18 20:13:26.762 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 5acde89271de571d66cbb71afcb7b9ec7779ed9d...refs/remotes/origin/main -- [21ms]
+2026-01-18 20:13:26.762 [info] > git rev-parse --show-toplevel [31ms]
+2026-01-18 20:13:26.762 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2026-01-18 20:13:26.781 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/Arch-Hyprland/.git/refs/remotes/origin/main'
+2026-01-18 20:13:26.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2026-01-18 20:13:26.790 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/HyprFlux/.git/refs/remotes/origin/main'
+2026-01-18 20:13:26.791 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2026-01-18 20:13:26.811 [info] > git rev-parse --show-toplevel [38ms]
+2026-01-18 20:13:26.812 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.827 [info] > git status -z -uall [27ms]
+2026-01-18 20:13:26.827 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2026-01-18 20:13:26.830 [info] > git rev-parse refs/remotes/origin/main [40ms]
+2026-01-18 20:13:26.851 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-01-18 20:13:26.851 [info] > git rev-parse --show-toplevel [29ms]
+2026-01-18 20:13:26.851 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.862 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:26.862 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.874 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:26.886 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-01-18 20:13:26.890 [info] [Model][openRepository] Opened repository (path): /home/sibam/Wallpapers
+2026-01-18 20:13:26.890 [info] [Model][openRepository] Opened repository (real path): /home/sibam/Wallpapers
+2026-01-18 20:13:26.890 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:26.907 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 20:13:26.907 [info] > git config --get commit.template [9ms]
+2026-01-18 20:13:26.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2026-01-18 20:13:26.928 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [12ms]
+2026-01-18 20:13:26.931 [info] [Model][openRepository] Opened repository (path): /home/sibam/dotfiles
+2026-01-18 20:13:26.931 [info] [Model][openRepository] Opened repository (real path): /home/sibam/dotfiles
+2026-01-18 20:13:26.931 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:26.948 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/Wallpapers/.git/refs/remotes/origin/master'
+2026-01-18 20:13:26.964 [info] > git status -z -uall [125ms]
+2026-01-18 20:13:26.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-01-18 20:13:26.996 [info] > git rev-parse --show-toplevel [34ms]
+2026-01-18 20:13:26.996 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:26.997 [info] > git config --get commit.template [42ms]
+2026-01-18 20:13:26.997 [info] > git rev-parse refs/remotes/origin/master [50ms]
+2026-01-18 20:13:27.035 [info] > git status -z -uall [31ms]
+2026-01-18 20:13:27.035 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2026-01-18 20:13:27.058 [info] > git config --get --local branch.main.vscode-merge-base [62ms]
+2026-01-18 20:13:27.067 [info] > git config --get commit.template [80ms]
+2026-01-18 20:13:27.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [22ms]
+2026-01-18 20:13:27.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [53ms]
+2026-01-18 20:13:27.107 [info] > git rev-parse --show-toplevel [73ms]
+2026-01-18 20:13:27.107 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.126 [info] > git config --get --local branch.master.vscode-merge-base [19ms]
+2026-01-18 20:13:27.133 [info] > git merge-base refs/heads/main refs/remotes/origin/main [36ms]
+2026-01-18 20:13:27.143 [info] > git config --get commit.template [58ms]
+2026-01-18 20:13:27.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2026-01-18 20:13:27.154 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/dotfiles/.git/refs/remotes/origin/main'
+2026-01-18 20:13:27.155 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 9033d902b9452d4dc871e386975e4a65b8f86182...refs/remotes/origin/main -- [12ms]
+2026-01-18 20:13:27.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [22ms]
+2026-01-18 20:13:27.164 [info] > git rev-parse --show-toplevel [39ms]
+2026-01-18 20:13:27.164 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2026-01-18 20:13:27.196 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/HyprFlux/.git/refs/remotes/origin/main'
+2026-01-18 20:13:27.198 [info] > git merge-base refs/heads/master refs/remotes/origin/master [35ms]
+2026-01-18 20:13:27.206 [info] > git rev-parse refs/remotes/origin/main [52ms]
+2026-01-18 20:13:27.226 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% dff7059b0a91707ae935d7ede01671eba9474004...refs/remotes/origin/master -- [20ms]
+2026-01-18 20:13:27.226 [info] > git rev-parse refs/remotes/origin/main [30ms]
+2026-01-18 20:13:27.249 [info] > git rev-parse --show-toplevel [62ms]
+2026-01-18 20:13:27.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [70ms]
+2026-01-18 20:13:27.272 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/Wallpapers/.git/refs/remotes/origin/master'
+2026-01-18 20:13:27.273 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [51ms]
+2026-01-18 20:13:27.277 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2026-01-18 20:13:27.293 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [33ms]
+2026-01-18 20:13:27.296 [info] [Model][openRepository] Opened repository (path): /home/sibam/hypr-lite
+2026-01-18 20:13:27.296 [info] [Model][openRepository] Opened repository (real path): /home/sibam/hypr-lite
+2026-01-18 20:13:27.296 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:27.296 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [47ms]
+2026-01-18 20:13:27.315 [info] > git status -z -uall [31ms]
+2026-01-18 20:13:27.315 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2026-01-18 20:13:27.319 [info] > git rev-parse --show-toplevel [5ms]
+2026-01-18 20:13:27.319 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.319 [info] > git config --get commit.template [14ms]
+2026-01-18 20:13:27.341 [info] > git status -z -uall [104ms]
+2026-01-18 20:13:27.342 [info] > git rev-parse --show-toplevel [13ms]
+2026-01-18 20:13:27.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-01-18 20:13:27.365 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/hypr-lite/.git/refs/remotes/origin/main'
+2026-01-18 20:13:27.366 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [12ms]
+2026-01-18 20:13:27.370 [info] [Model][openRepository] Opened repository (path): /home/sibam/hyprlang-git
+2026-01-18 20:13:27.370 [info] [Model][openRepository] Opened repository (real path): /home/sibam/hyprlang-git
+2026-01-18 20:13:27.370 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:27.389 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2026-01-18 20:13:27.409 [info] > git status -z -uall [13ms]
+2026-01-18 20:13:27.409 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-01-18 20:13:27.422 [info] > git rev-parse --show-toplevel [34ms]
+2026-01-18 20:13:27.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.422 [info] > git config --get commit.template [43ms]
+2026-01-18 20:13:27.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2026-01-18 20:13:27.461 [info] > git config --get --local branch.main.vscode-merge-base [12ms]
+2026-01-18 20:13:27.469 [info] > git rev-parse --show-toplevel [30ms]
+2026-01-18 20:13:27.469 [info] > git config --get commit.template [38ms]
+2026-01-18 20:13:27.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2026-01-18 20:13:27.496 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/hyprlang-git/.git/refs/remotes/origin/master'
+2026-01-18 20:13:27.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [28ms]
+2026-01-18 20:13:27.509 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2026-01-18 20:13:27.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2026-01-18 20:13:27.527 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [50ms]
+2026-01-18 20:13:27.533 [info] [Model][openRepository] Opened repository (path): /home/sibam/omarchy
+2026-01-18 20:13:27.533 [info] [Model][openRepository] Opened repository (real path): /home/sibam/omarchy
+2026-01-18 20:13:27.533 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 20:13:27.545 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/hypr-lite/.git/refs/remotes/origin/main'
+2026-01-18 20:13:27.566 [info] > git status -z -uall [49ms]
+2026-01-18 20:13:27.566 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [39ms]
+2026-01-18 20:13:27.582 [info] > git merge-base refs/heads/main refs/remotes/origin/main [76ms]
+2026-01-18 20:13:27.613 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 5dc071ffb08a037e8c440266af06a5117b0dfb96...refs/remotes/origin/main -- [18ms]
+2026-01-18 20:13:27.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [35ms]
+2026-01-18 20:13:27.626 [info] > git rev-parse --show-toplevel [61ms]
+2026-01-18 20:13:27.626 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.626 [info] > git config --get commit.template [71ms]
+2026-01-18 20:13:27.626 [info] > git rev-parse refs/remotes/origin/main [81ms]
+2026-01-18 20:13:27.671 [info] > git status -z -uall [34ms]
+2026-01-18 20:13:27.671 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2026-01-18 20:13:27.675 [info] > git config --get --local branch.master.vscode-merge-base [50ms]
+2026-01-18 20:13:27.688 [info] > git config --get commit.template [79ms]
+2026-01-18 20:13:27.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [21ms]
+2026-01-18 20:13:27.723 [info] > git rev-parse --show-toplevel [53ms]
+2026-01-18 20:13:27.723 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.726 [info] [Model][doInitialScan] Initial repository scan completed - repositories (9), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-18 20:13:27.757 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2026-01-18 20:13:27.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [63ms]
+2026-01-18 20:13:27.786 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/omarchy/.git/refs/remotes/origin/master'
+2026-01-18 20:13:27.788 [info] > git rev-parse --show-toplevel [34ms]
+2026-01-18 20:13:27.788 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [48ms]
+2026-01-18 20:13:27.819 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/hyprlang-git/.git/refs/remotes/origin/master'
+2026-01-18 20:13:27.822 [info] > git rev-parse refs/remotes/origin/master [36ms]
+2026-01-18 20:13:27.853 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 5a19411cefca9852e17d6f4bcd58eb01c801652c...refs/remotes/origin/master -- [84ms]
+2026-01-18 20:13:27.860 [info] > git rev-parse refs/remotes/origin/master [41ms]
+2026-01-18 20:13:27.890 [info] > git rev-parse --show-toplevel [84ms]
+2026-01-18 20:13:27.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:27.950 [info] > git status -z -uall [76ms]
+2026-01-18 20:13:27.951 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [62ms]
+2026-01-18 20:13:27.955 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [102ms]
+2026-01-18 20:13:27.983 [info] > git rev-parse --show-toplevel [47ms]
+2026-01-18 20:13:27.983 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.026 [info] > git rev-parse --show-toplevel [15ms]
+2026-01-18 20:13:28.026 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.045 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:28.045 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.066 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:28.066 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.085 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:28.085 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.108 [info] > git rev-parse --show-toplevel [9ms]
+2026-01-18 20:13:28.108 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.126 [info] > git rev-parse --show-toplevel [4ms]
+2026-01-18 20:13:28.126 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.146 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-18 20:13:28.146 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.158 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-18 20:13:28.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.178 [info] > git status -z -uall [340ms]
+2026-01-18 20:13:28.178 [info] > git rev-parse --show-toplevel [10ms]
+2026-01-18 20:13:28.178 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:28.295 [info] > git status -z -uall [1081ms]
+2026-01-18 20:13:28.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [103ms]
+2026-01-18 20:13:28.317 [info] > git config --get --local branch.master.vscode-merge-base [10ms]
+2026-01-18 20:13:28.329 [info] > git config --get commit.template [35ms]
+2026-01-18 20:13:28.329 [info] > git config --get commit.template [46ms]
+2026-01-18 20:13:28.329 [info] > git config --get commit.template [57ms]
+2026-01-18 20:13:28.329 [info] > git config --get commit.template [68ms]
+2026-01-18 20:13:28.330 [info] > git config --get commit.template [79ms]
+2026-01-18 20:13:28.330 [info] > git config --get commit.template [92ms]
+2026-01-18 20:13:28.330 [info] > git config --get commit.template [103ms]
+2026-01-18 20:13:28.330 [info] > git config --get commit.template [115ms]
+2026-01-18 20:13:28.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2026-01-18 20:13:28.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [51ms]
+2026-01-18 20:13:28.490 [info] > git merge-base refs/heads/master refs/remotes/origin/master [96ms]
+2026-01-18 20:13:28.501 [info] > git config --get --local branch.main.vscode-merge-base [121ms]
+2026-01-18 20:13:28.513 [info] > git config --get commit.template [149ms]
+2026-01-18 20:13:28.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2026-01-18 20:13:28.528 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% ed9a4a45ba3819f942df605e02011fcc70bfbda1...refs/remotes/origin/master -- [27ms]
+2026-01-18 20:13:28.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [61ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [72ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [83ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [97ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [110ms]
+2026-01-18 20:13:28.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [122ms]
+2026-01-18 20:13:28.546 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/HyprFlux/.git/refs/remotes/origin/main'
+2026-01-18 20:13:28.554 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/hypr-lite/.git/refs/remotes/origin/main'
+2026-01-18 20:13:28.562 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/Wallpapers/.git/refs/remotes/origin/master'
+2026-01-18 20:13:28.570 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/.tmuxifier/.git/refs/remotes/origin/main'
+2026-01-18 20:13:28.577 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/hyprlang-git/.git/refs/remotes/origin/master'
+2026-01-18 20:13:28.585 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/Arch-Hyprland/.git/refs/remotes/origin/main'
+2026-01-18 20:13:28.591 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/omarchy/.git/refs/remotes/origin/master'
+2026-01-18 20:13:28.592 [info] > git merge-base refs/heads/main refs/remotes/origin/main [65ms]
+2026-01-18 20:13:28.604 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 77f6d9885e1736de342089ecd6e28aef41a64c1e...refs/remotes/origin/main -- [4ms]
+2026-01-18 20:13:28.605 [info] > git rev-parse refs/remotes/origin/master [14ms]
+2026-01-18 20:13:28.621 [info] > git rev-parse refs/remotes/origin/main [36ms]
+2026-01-18 20:13:28.636 [info] > git rev-parse refs/remotes/origin/master [59ms]
+2026-01-18 20:13:28.653 [info] > git rev-parse refs/remotes/origin/main [83ms]
+2026-01-18 20:13:28.667 [info] > git rev-parse refs/remotes/origin/master [105ms]
+2026-01-18 20:13:28.683 [info] > git rev-parse refs/remotes/origin/main [129ms]
+2026-01-18 20:13:28.698 [info] > git rev-parse refs/remotes/origin/main [151ms]
+2026-01-18 20:13:28.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [174ms]
+2026-01-18 20:13:28.722 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/dotfiles/.git/refs/remotes/origin/main'
+2026-01-18 20:13:28.726 [info] > git status -z -uall [98ms]
+2026-01-18 20:13:28.726 [info] > git status -z -uall [82ms]
+2026-01-18 20:13:28.726 [info] > git status -z -uall [66ms]
+2026-01-18 20:13:28.726 [info] > git status -z -uall [51ms]
+2026-01-18 20:13:28.726 [info] > git status -z -uall [36ms]
+2026-01-18 20:13:28.726 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-01-18 20:13:28.727 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2026-01-18 20:13:28.730 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [47ms]
+2026-01-18 20:13:28.732 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [65ms]
+2026-01-18 20:13:28.734 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [81ms]
+2026-01-18 20:13:28.743 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [107ms]
+2026-01-18 20:13:28.747 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [126ms]
+2026-01-18 20:13:28.771 [info] > git status -z -uall [159ms]
+2026-01-18 20:13:28.772 [info] > git rev-parse refs/remotes/origin/main [50ms]
+2026-01-18 20:13:28.802 [info] > git status -z -uall [97ms]
+2026-01-18 20:13:28.802 [info] > git status -z -uall [40ms]
+2026-01-18 20:13:28.802 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2026-01-18 20:13:28.803 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2026-01-18 20:13:28.827 [info] > git config --get commit.template [26ms]
+2026-01-18 20:13:28.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-01-18 20:13:28.860 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sibam/omarchy/.git/refs/remotes/origin/master'
+2026-01-18 20:13:28.861 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2026-01-18 20:13:28.885 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-01-18 20:13:29.024 [info] > git status -z -uall [153ms]
+2026-01-18 20:13:29.817 [info] > git status -z -uall [1038ms]
+2026-01-18 20:13:34.463 [info] > git rev-parse --show-toplevel [120ms]
+2026-01-18 20:13:34.463 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:34.516 [info] > git rev-parse --show-toplevel [4ms]
+2026-01-18 20:13:34.516 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-18 20:13:34.549 [info] > git rev-parse --show-toplevel [24ms]
+2026-01-18 20:13:34.549 [info] fatal: not a git repository (or any of the parent directories): .git

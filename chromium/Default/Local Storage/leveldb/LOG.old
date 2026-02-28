@@ -1,0 +1,24 @@
+2026/02/26-18:39:32.934 5 Reusing MANIFEST /home/sibam/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/26-18:39:32.940 5 Recovering log #75
+2026/02/26-18:39:32.940 5 Reusing old log /home/sibam/.config/chromium/Default/Local Storage/leveldb/000075.log 
+2026/02/26-18:39:55.291 7 Level-0 table #79: started
+2026/02/26-18:39:55.298 7 Level-0 table #79: 73752 bytes OK
+2026/02/26-18:39:55.306 7 Delete type=0 #75
+2026/02/26-20:40:48.602 7 Level-0 table #81: started
+2026/02/26-20:40:48.613 7 Level-0 table #81: 14354 bytes OK
+2026/02/26-20:40:48.620 7 Delete type=0 #78
+2026/02/26-23:20:37.187 7 Level-0 table #83: started
+2026/02/26-23:20:37.230 7 Level-0 table #83: 15075 bytes OK
+2026/02/26-23:20:37.236 7 Delete type=0 #80
+2026/02/26-23:20:37.236 7 Compacting 4@0 + 1@1 files
+2026/02/26-23:20:37.243 7 Generated table #84@0: 750 keys, 245218 bytes
+2026/02/26-23:20:37.243 7 Compacted 4@0 + 1@1 files => 245218 bytes
+2026/02/26-23:20:37.248 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/26-23:20:37.248 7 Delete type=2 #76
+2026/02/26-23:20:37.248 7 Delete type=2 #79
+2026/02/26-23:20:37.248 7 Delete type=2 #73
+2026/02/26-23:20:37.248 7 Delete type=2 #83
+2026/02/26-23:20:37.249 7 Delete type=2 #81
+2026/02/27-01:13:40.333 7 Level-0 table #86: started
+2026/02/27-01:13:40.344 7 Level-0 table #86: 14159 bytes OK
+2026/02/27-01:13:40.351 7 Delete type=0 #82

@@ -1,0 +1,134 @@
+{
+	"history": {
+		"lastFocusedWindowDisplayState": {
+			"normalBounds": {
+				"x": 0,
+				"y": 0,
+				"width": 1920,
+				"height": 1080
+			},
+			"displayBounds": [
+				{
+					"x": 0,
+					"y": 0,
+					"width": 1920,
+					"height": 1080
+				}
+			],
+			"isFullScreen": false,
+			"isHtmlFullScreen": false,
+			"isMaximized": true
+		},
+		"appRestorationState": {
+			"windows": [
+				{
+					"windowId": "90331ec4-7fe3-4a87-a888-7e1d31942313",
+					"focusOrder": 14,
+					"displayState": {
+						"normalBounds": {
+							"x": 0,
+							"y": 0,
+							"width": 1920,
+							"height": 1080
+						},
+						"displayBounds": [
+							{
+								"x": 0,
+								"y": 0,
+								"width": 1920,
+								"height": 1080
+							}
+						],
+						"isFullScreen": false,
+						"isHtmlFullScreen": false,
+						"isMaximized": true
+					},
+					"activeTabIdMap": {
+						"ungrouped": "b440d021-aafd-4fc4-bca9-79b2b8c0ab3e"
+					},
+					"activeTabSectionId": "ungrouped",
+					"tabs": [
+						{
+							"tabId": "b440d021-aafd-4fc4-bca9-79b2b8c0ab3e",
+							"url": "https://www.notion.so/Freelancing-JOB-1104485244768028865adad8f2254395",
+							"title": "Freelancing & JOB:",
+							"index": 0,
+							"appStoreState": {
+								"currentUserId": "2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b",
+								"currentUserEmail": "sibampaulsp2@gmail.com",
+								"currentSpaceId": "62c4cada-8861-476e-8d02-a0d6d4247628",
+								"currentPageId": "11044852-4476-8028-865a-dad8f2254395"
+							}
+						}
+					]
+				}
+			],
+			"tabSpaces": []
+		}
+	},
+	"appState": {
+		"zoomFactor": 1,
+		"theme": {
+			"mode": "dark",
+			"usingSystemTheme": true,
+			"colors": {
+				"white": "white",
+				"blue": "#2383E2"
+			},
+			"borderRadius": 4,
+			"textColor": "rgba(240, 239, 237, 1)",
+			"popoverBackgroundColor": "rgba(37, 37, 37, 1)",
+			"popoverBoxShadow": "0 0 0 1px rgba(56, 56, 54, 1), 0px 14px 28px -6px rgba(0, 0, 0, 0.20), 0px 2px 4px -1px rgba(0, 0, 0, 0.12)",
+			"inputBoxShadow": "rgba(255, 255, 255, 0.075) 0 0 0 1px",
+			"inputBackgroundColor": "rgba(255, 255, 255, 0.055)",
+			"dividerColor": "rgba(255, 255, 235, 0.1)",
+			"shadowOpacity": 0
+		},
+		"preferences": {
+			"isAutoUpdaterDisabled": false,
+			"isAutoUpdaterOSSupportBypass": false,
+			"isClosingBrowserTabs": false,
+			"isHardwareAccelerationDisabled": false,
+			"isHideLastWindowOnCloseEnabled": true,
+			"isMenuBarIconEnabled": true,
+			"isNavigationHistoryEnabled": true,
+			"isNewTabSearchEnabled": true,
+			"isOpenAtLoginEnabled": false,
+			"isPinnedTabNewTabEnabled": true,
+			"isTabSpacesEnabled": true,
+			"isQuickSearchEnabled": true,
+			"isTabPreviewEnabled": true,
+			"isTabUnloadingEnabled": true,
+			"isUniversalLinksEnabled": true,
+			"isUsingHttps": true,
+			"isVibrancyEnabled": null,
+			"notionAiShortcut": "shift+ctrl+j",
+			"onStartup": "continue",
+			"quickSearchShortcut": "Shift+CommandOrControl+K",
+			"updaterChannel": null,
+			"ignoreLogMessages": [
+				"Electron Security Warning",
+				"chrome-extension://"
+			],
+			"sqliteConnectionType": "message-ports",
+			"disabledExtensions": [
+				"React Developer Tools"
+			],
+			"isAlwaysOnTabBarEnabled": true,
+			"isZenModeEnabled": true,
+			"isPrewarmedTabThrottlingEnabled": true,
+			"shouldUsePrewarmedTabHeuristic": true,
+			"isPrewarmedTabHiddenBehindEnabled": false,
+			"tabUnloadThreshold": 36000000,
+			"shouldUnloadTabsBeforeRefresh": true,
+			"isStuckTabWatchdogEnabled": false
+		},
+		"notificationCount": 0,
+		"isTabBarContextMenuOpen": false,
+		"locale": "en-US",
+		"appLaunchTimestamp": 1769473992685,
+		"lastPrewarmedTabRequestTime": 1769408701721,
+		"prewarmedTabHeuristicEnabledTime": 1769408764787
+	},
+	"quickSearchLastOpenedTimestamp": 1769476090175
+}

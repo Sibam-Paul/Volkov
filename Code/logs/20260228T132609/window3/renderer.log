@@ -1,0 +1,35 @@
+2026-02-28 13:42:44.065 [info] Started local extension host with pid 8483.
+2026-02-28 13:42:46.996 [info] MCP Registry configured: https://api.mcp.github.com
+2026-02-28 13:42:47.594 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-02-28 13:42:47.926 [error] [Extension Host] (node:8483) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-28 13:42:47.930 [error] [Extension Host] (node:8483) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-02-28 13:42:48.535 [info] [perf] Render performance baseline is 52ms
+2026-02-28 13:42:49.552 [error] chatParticipant must be declared in package.json: claude-code
+2026-02-28 13:42:49.980 [error] Failed to fetch MCP registry providers Server returned 404
+2026-02-28 13:42:57.444 [info] Extension host (LocalProcess pid: 8483) is unresponsive.
+2026-02-28 13:42:58.432 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-02-28 13:42:59.072 [info] Extension host (LocalProcess pid: 8483) is responsive.
+2026-02-28 13:42:59.072 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-02-28 13:42:59.489 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 83.64577586127182% of 542.749ms, saved PROFILE here: 'file:///tmp/exthost-606e05.cpuprofile'
+2026-02-28 13:43:17.052 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 13:45:03.341 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-02-28 14:15:25.467 [error] [f16] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at n5i.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12074)
+    at awt.u [as onDidRemoveRepository] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:6910
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:7250)
+    at u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at uUe.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:542:21193)
+    at new uUe (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:542:20343)
+    at NRt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:1580)
+    at NRt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:1077)
+    at hUe.f (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:542:19098)
+2026-02-28 14:15:34.673 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatSessionStore, join.chatEditingSession, join.workingCopyHistory
+2026-02-28 14:15:34.699 [error] Model is disposed!: Error: Model is disposed!
+    at dg.mb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:280:303)
+    at dg.getValue (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:282:3438)
+    at n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2779:51828)
+    at ym.queue (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73071)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:74420
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:74065

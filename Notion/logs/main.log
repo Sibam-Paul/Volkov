@@ -1,0 +1,2171 @@
+[2026-01-26 11:55:01.380] [info]                      Setting open at login to true
+[2026-01-26 11:55:01.413] [info]                      AppController previousRestorationState {}
+[2026-01-26 11:55:01.421] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:55:01.506] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 393.654395
+  }
+}
+[2026-01-26 11:55:01.650] [info]                         Activated { options: {} }
+[2026-01-26 11:55:01.651] [info]                         Finished rehydrating entire app in foreground { success: false }
+[2026-01-26 11:55:01.651] [info]                         {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2026-01-26 11:55:01.674] [warn]                         Window not found
+[2026-01-26 11:55:01.686] [info]                         New window created {
+  windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+  showWhenLoaded: true
+}
+[2026-01-26 11:55:01.701] [info]                         {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 1,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 1,
+    tab_section_id: 'ungrouped',
+    is_prewarmed_tab: false,
+    is_app_rehydrating: false
+  }
+}
+[2026-01-26 11:55:01.701] [info]                         New Tab Controller {
+  id: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+  initialUrl: 'https://www.notion.so/?loadOrigin=new_tab',
+  windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+  isAppRehydrating: false,
+  tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+  fromPrewarmTab: false
+}
+[2026-01-26 11:55:01.733] [info]                         {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2026-01-26 11:55:03.181] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 11:55:03.190] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 11:55:03.199] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-01-26 11:55:03.207] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 11:55:03.213] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 11:55:03.224] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 11:55:03.233] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: false }
+[2026-01-26 11:55:03.745] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 11:55:03.755] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 11:55:03.761] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: false }
+[2026-01-26 11:55:03.770] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 11:55:03.776] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 11:55:03.786] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 11:55:03.795] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: false }
+[2026-01-26 11:55:08.599] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:08.602] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:08.603] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:08.604] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:08.605] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:08.605] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:08.606] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:08.606] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:08.607] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:08.607] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:08.645] [info]                      ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  level: 'warning',
+  from: 'historySelector.appRestorationStateSelector',
+  type: 'WindowWithNoTabs'
+}
+[2026-01-26 11:55:08.675] [info]                      AppController previousRestorationState { previousRestorationState: { windows: [], tabSpaces: [] } }
+[2026-01-26 11:55:08.681] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:08.681] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:08.682] [info]                         Activated { options: { forceNewWindow: true } }
+[2026-01-26 11:55:08.683] [info]                         Finished rehydrating entire app in foreground { success: false }
+[2026-01-26 11:55:08.684] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:55:08.780] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 472.198294
+  }
+}
+[2026-01-26 11:55:08.852] [info]                         Activated { options: {} }
+[2026-01-26 11:55:08.853] [info]                         Rehydrating app in foreground { restorationState: { windows: [], tabSpaces: [] } }
+[2026-01-26 11:55:08.854] [info]                         Finished rehydrating entire app in foreground { success: true }
+[2026-01-26 11:55:08.865] [info]                         {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2026-01-26 11:55:08.888] [error]                        Error loading placeholder page
+[2026-01-26 11:55:24.707] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:24.710] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:24.711] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:24.711] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:24.712] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:24.712] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:24.713] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:24.713] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:24.713] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:24.713] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:24.744] [info]                      ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  level: 'warning',
+  from: 'historySelector.appRestorationStateSelector',
+  type: 'WindowWithNoTabs'
+}
+[2026-01-26 11:55:24.772] [info]                      AppController previousRestorationState { previousRestorationState: { windows: [], tabSpaces: [] } }
+[2026-01-26 11:55:24.779] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:24.779] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:24.779] [info]                         Activated { options: { forceNewWindow: true } }
+[2026-01-26 11:55:24.780] [info]                         Finished rehydrating entire app in foreground { success: false }
+[2026-01-26 11:55:24.780] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:55:24.870] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 443.031207
+  }
+}
+[2026-01-26 11:55:26.053] [info]                         Preventing closure for window with id 1, hiding
+[2026-01-26 11:55:29.889] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:29.892] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:29.893] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:29.894] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:29.895] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:29.895] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:29.896] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:29.896] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:29.896] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:29.897] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:29.929] [info]                      ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  level: 'warning',
+  from: 'historySelector.appRestorationStateSelector',
+  type: 'WindowWithNoTabs'
+}
+[2026-01-26 11:55:29.957] [info]                      AppController previousRestorationState { previousRestorationState: { windows: [], tabSpaces: [] } }
+[2026-01-26 11:55:29.963] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:55:29.964] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 11:55:29.964] [info]                         Activated { options: { forceNewWindow: true } }
+[2026-01-26 11:55:29.965] [info]                         Finished rehydrating entire app in foreground { success: false }
+[2026-01-26 11:55:29.966] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:55:30.063] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 452.377007
+  }
+}
+[2026-01-26 11:55:30.129] [info]                         Activated { options: {} }
+[2026-01-26 11:55:30.129] [info]                         Rehydrating app in foreground { restorationState: { windows: [], tabSpaces: [] } }
+[2026-01-26 11:55:30.130] [info]                         Finished rehydrating entire app in foreground { success: true }
+[2026-01-26 11:55:30.140] [info]                         {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2026-01-26 11:55:30.158] [error]                        Error loading placeholder page
+[2026-01-26 11:56:02.322] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:02.325] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:02.326] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:02.326] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:02.327] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:02.328] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:02.328] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:02.328] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:02.329] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:02.329] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:02.361] [info]                      AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 8,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 956, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/',
+            title: 'Log in',
+            index: 0,
+            appStoreState: {}
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-26 11:56:02.374] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:02.374] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:02.380] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:56:02.460] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 415.41686
+  }
+}
+[2026-01-26 11:56:04.134] [error]                        Error loading URL in loadFullUrl: https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOjBPZkZ6bmZKS3JQYUlvOVY1ZjhpTi1yd0c1QmNoZnBHeW9faVhTeVJaWnhPVmNoMnhBMHVvbVJleFk0bTVfOG9waXhmN0lrN25wUmJCU21KU2ZlOFhkQzZZMUFMNVd2ZDZVSW5Lb0NENGQxTmFvY09CWTlFMDl3b3dUdlU1c3Fsbkx1aCJ9&code=4%2F0ASc3gC18TQiBwlvKwFFkhyNdUP8Vl3wclpOLD-daPxo7ztv4j9qrdKpHlrCby8Avzk-6EA&scope=email%20profile%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none&cs_completed=true&di=2771fc4e8de74e5dace1d362fbaff855&loadOrigin=refresh_all_ipc&tabCount=1 Error: ERR_FAILED (-2) loading 'https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOjBPZkZ6bmZKS3JQYUlvOVY1ZjhpTi1yd0c1QmNoZnBHeW9faVhTeVJaWnhPVmNoMnhBMHVvbVJleFk0bTVfOG9waXhmN0lrN25wUmJCU21KU2ZlOFhkQzZZMUFMNVd2ZDZVSW5Lb0NENGQxTmFvY09CWTlFMDl3b3dUdlU1c3Fsbkx1aCJ9&code=4%2F0ASc3gC18TQiBwlvKwFFkhyNdUP8Vl3wclpOLD-daPxo7ztv4j9qrdKpHlrCby8Avzk-6EA&scope=email%20profile%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none&cs_completed=true&di=2771fc4e8de74e5dace1d362fbaff855&loadOrigin=refresh_all_ipc&tabCount=1'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)
+    at finishListener (node:electron/js2c/browser_init:2:79886)
+    at WebContents.stopLoadingListener (node:electron/js2c/browser_init:2:80273)
+    at WebContents.emit (node:events:519:28)
+[2026-01-26 11:56:04.135] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '53adc0b7-2299-4b16-b32b-ce43c33774d4',
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 4844,
+    storageQuotaEstimate: 427228148460,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  level: 'info',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'Error',
+    message: "ERR_FAILED (-2) loading 'https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOjBPZkZ6bmZKS3JQYUlvOVY1ZjhpTi1yd0c1QmNoZnBHeW9faVhTeVJaWnhPVmNoMnhBMHVvbVJleFk0bTVfOG9waXhmN0lrN25wUmJCU21KU2ZlOFhkQzZZMUFMNVd2ZDZVSW5Lb0NENGQxTmFvY09CWTlFMDl3b3dUdlU1c3Fsbkx1aCJ9&code=4%2F0ASc3gC18TQiBwlvKwFFkhyNdUP8Vl3wclpOLD-daPxo7ztv4j9qrdKpHlrCby8Avzk-6EA&scope=email%20profile%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none&cs_completed=true&di=2771fc4e8de74e5dace1d362fbaff855&loadOrigin=refresh_all_ipc&tabCount=1'",
+    stack: "Error: ERR_FAILED (-2) loading 'https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOjBPZkZ6bmZKS3JQYUlvOVY1ZjhpTi1yd0c1QmNoZnBHeW9faVhTeVJaWnhPVmNoMnhBMHVvbVJleFk0bTVfOG9waXhmN0lrN25wUmJCU21KU2ZlOFhkQzZZMUFMNVd2ZDZVSW5Lb0NENGQxTmFvY09CWTlFMDl3b3dUdlU1c3Fsbkx1aCJ9&code=4%2F0ASc3gC18TQiBwlvKwFFkhyNdUP8Vl3wclpOLD-daPxo7ztv4j9qrdKpHlrCby8Avzk-6EA&scope=email%20profile%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none&cs_completed=true&di=2771fc4e8de74e5dace1d362fbaff855&loadOrigin=refresh_all_ipc&tabCount=1'\n" +
+      '    at rejectAndCleanup (node:electron/js2c/browser_init:2:79724)\n' +
+      '    at finishListener (node:electron/js2c/browser_init:2:79886)\n' +
+      '    at WebContents.stopLoadingListener (node:electron/js2c/browser_init:2:80273)\n' +
+      '    at WebContents.emit (node:events:519:28)'
+  }
+}
+[2026-01-26 11:56:04.745] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 11:56:04.751] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 11:56:04.757] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 11:56:04.763] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 11:56:04.769] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 11:56:04.775] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 11:56:04.781] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 11:56:11.412] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '4debd78e-7bb1-484a-898f-2db00ac3ed5e',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 425504832,
+    storageQuotaEstimate: 427184570432,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0303' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2026-01-26 11:56:11.457] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:11.460] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:11.462] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:11.463] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:11.465] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:11.465] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:11.466] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:11.466] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:11.467] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:11.467] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:11.505] [info]                      AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 8,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 956, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/',
+            title: 'Log in',
+            index: 0,
+            appStoreState: {}
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-26 11:56:11.519] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:11.519] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:11.523] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:56:11.633] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 461.050838
+  }
+}
+[2026-01-26 11:56:11.913] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '4debd78e-7bb1-484a-898f-2db00ac3ed5e',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 425504832,
+    storageQuotaEstimate: 427184570432,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0303' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2026-01-26 11:56:12.176] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 11:56:12.182] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 11:56:12.188] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 11:56:12.195] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 11:56:12.201] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 11:56:12.208] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 11:56:12.215] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 11:56:12.881] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 11:56:12.887] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 11:56:12.893] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 11:56:12.899] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 11:56:12.905] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 11:56:12.911] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 11:56:12.917] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 11:56:13.926] [info]                         AudioController - initialize { intervalMs: 1000, useMicrophoneStatusEmitter: false }
+[2026-01-26 11:56:16.221] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0303',
+    path: '/images/app-packages/meetings-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 11:56:16.721] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0303',
+    path: '/images/app-packages/docs-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 11:56:45.763] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0303',
+    path: '/images/external_integrations/github-dark-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 11:56:51.067] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:51.070] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:51.071] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:51.071] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:51.072] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:51.073] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:51.073] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:51.073] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:51.074] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:51.074] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:51.105] [info]                      AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 10,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 956, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/Web3-Harkirat-10b448524476805da414ffccb577ba40',
+            title: 'Web3-Harkirat',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-26 11:56:51.115] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 11:56:51.115] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 11:56:51.119] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 11:56:51.216] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 464.676879
+  }
+}
+[2026-01-26 11:57:01.233] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0303',
+    path: '/images/page-cover/met_henri_rousseau_1907.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 11:57:11.099] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0303',
+    path: '/images/external_integrations/github-dark-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 11:57:11.599] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0303',
+    path: '/images/external_integrations/github-accent.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 11:57:42.828] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2026-01-26 12:00:02.186] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2026-01-26 12:25:34.006] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'c278a5e5-4f60-479f-a8af-db0b9faf093f',
+    isPersistent: true,
+    version: '23.13.20260126.0303',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/Bucket-List-110448524476802cb94ecf9f9a50da0a?pvs=3',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 426932230,
+    storageQuotaEstimate: 427179808774,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0403' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2026-01-26 12:55:01.472] [info]                         {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    system_memory_total_gb: 15,
+    system_memory_free: 6937,
+    app_working_set_size_total: 1569,
+    tabs_working_set_size_total: 596,
+    tabs_private_memory_total: 351,
+    prewarmed_tabs_working_set_size_total: 181,
+    main_process_working_set_size_total: 216,
+    gpu_working_set_size_total: 416,
+    network_service_working_set_size_total: 97,
+    sqlite_server_working_set_size_total: -1,
+    audio_service_working_set_size_total: -1,
+    video_capture_service_working_set_size_total: -1,
+    utility_process_working_set_size_total: 201,
+    tab_bar_working_set_size_total: 140,
+    quick_search_working_set_size_total: -1,
+    tab_preview_working_set_size_total: -1,
+    web_contents_working_set_size_total: 140,
+    meeting_notification_working_set_size_total: -1,
+    process_count: 7,
+    tab_process_count: 2,
+    tabs_in_state_count: 1,
+    utility_process_names: [ 'Network Service', 'Sqlite Server' ],
+    web_contents_process_names: [ 'Tab Bar' ]
+  }
+}
+[2026-01-26 12:55:12.593] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 12:55:12.600] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 12:55:12.606] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 12:55:12.612] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 12:55:12.618] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 12:55:12.626] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 12:55:12.632] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 12:55:57.766] [info]                         Quitting...
+[2026-01-26 12:55:57.774] [error]                        DetachFromWindow: TabController 2d68c354-a49c-4369-9d00-d5d417c60ec2 not attached to any window
+[2026-01-26 12:55:57.784] [info]                         Window with id 1 closed
+[2026-01-26 17:18:14.097] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 17:18:14.108] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 17:18:14.112] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 17:18:14.113] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 17:18:14.116] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 17:18:14.117] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 17:18:14.118] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 17:18:14.119] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 17:18:14.120] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-26 17:18:14.121] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-26 17:18:14.215] [info]                      AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 21,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 956, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/UI-Frontend-Development-Pt-2-18044852447681fca274f1c7947d333e',
+            title: 'UI/Frontend Development (Pt 2)',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-26 17:18:14.245] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-26 17:18:14.245] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-26 17:18:14.249] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-26 17:18:14.504] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 1321.834642
+  }
+}
+[2026-01-26 17:18:14.711] [info]                         Activated { options: {} }
+[2026-01-26 17:18:14.712] [info]                         Rehydrating app in foreground {
+  restorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 21,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 956, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/UI-Frontend-Development-Pt-2-18044852447681fca274f1c7947d333e',
+            title: 'UI/Frontend Development (Pt 2)',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-26 17:18:14.715] [info]                         {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2026-01-26 17:18:14.796] [warn]                         Window not found
+[2026-01-26 17:18:14.810] [info]                         New window created {
+  windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+  activeTabSectionId: 'ungrouped',
+  showWhenLoaded: true,
+  displayState: {
+    normalBounds: { x: 0, y: 0, width: 956, height: 1040 },
+    displayBounds: [ { x: 0, y: 0, width: 1920, height: 1080 } ],
+    isFullScreen: false,
+    isHtmlFullScreen: false,
+    isMaximized: true
+  }
+}
+[2026-01-26 17:18:14.830] [info]                         {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 1,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 1,
+    tab_section_id: 'ungrouped',
+    is_prewarmed_tab: false,
+    is_app_rehydrating: true
+  }
+}
+[2026-01-26 17:18:14.830] [info]                         New Tab Controller {
+  id: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+  initialUrl: 'https://www.notion.so/UI-Frontend-Development-Pt-2-18044852447681fca274f1c7947d333e?loadOrigin=new_tab_on_restore',
+  windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+  loadOrigin: 'new_tab_on_restore',
+  isAppRehydrating: true,
+  tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+  fromPrewarmTab: false
+}
+[2026-01-26 17:18:14.840] [info]                         Finished rehydrating entire app in foreground { success: true }
+[2026-01-26 17:18:14.943] [info]                         {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2026-01-26 17:18:14.985] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0403' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'cleanupCachesScheduled'
+}
+[2026-01-26 17:18:15.493] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0403' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2026-01-26 17:18:16.486] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 17:18:16.495] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 17:18:16.503] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 17:18:16.511] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 17:18:16.518] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 17:18:16.527] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 17:18:16.534] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 17:18:16.675] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 17:18:16.683] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 17:18:16.691] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 17:18:16.699] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 17:18:16.706] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 17:18:16.714] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 17:18:16.721] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 17:18:17.934] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-26 17:18:17.942] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-26 17:18:17.951] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-26 17:18:17.959] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-26 17:18:17.967] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-26 17:18:17.979] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-26 17:18:17.987] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-26 17:18:20.400] [info]                         AudioController - initialize { intervalMs: 1000, useMicrophoneStatusEmitter: false }
+[2026-01-26 17:18:22.985] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/app-packages/meetings-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:18:23.484] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/app-packages/docs-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:18:24.958] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    cacheCount: 1,
+    totalCacheCount: 3
+  },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'cleanupCachesDeleting'
+}
+[2026-01-26 17:19:02.035] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0807' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2026-01-26 17:19:46.826] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2026-01-26 17:23:15.216] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2026-01-26 17:33:11.136] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:33:18.394] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/jira-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:33:18.895] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/onedrive-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:33:21.077] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/discord-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:33:32.216] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/jira.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:34:30.818] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/github-dark-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 17:34:38.953] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0403',
+    path: '/images/external_integrations/github-accent.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-26 18:18:14.340] [info]                         {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    system_memory_total_gb: 15,
+    system_memory_free: 4876,
+    app_working_set_size_total: 1830,
+    tabs_working_set_size_total: 649,
+    tabs_private_memory_total: 425,
+    prewarmed_tabs_working_set_size_total: 168,
+    main_process_working_set_size_total: 214,
+    gpu_working_set_size_total: 458,
+    network_service_working_set_size_total: 83,
+    sqlite_server_working_set_size_total: -1,
+    audio_service_working_set_size_total: -1,
+    video_capture_service_working_set_size_total: -1,
+    utility_process_working_set_size_total: 180,
+    tab_bar_working_set_size_total: 130,
+    quick_search_working_set_size_total: 199,
+    tab_preview_working_set_size_total: -1,
+    web_contents_working_set_size_total: 329,
+    meeting_notification_working_set_size_total: -1,
+    process_count: 8,
+    tab_process_count: 2,
+    tabs_in_state_count: 1,
+    utility_process_names: [ 'Network Service', 'Sqlite Server' ],
+    web_contents_process_names: [ 'Tab Bar', 'Quick Search' ]
+  }
+}
+[2026-01-26 18:18:31.481] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: 'f476a31e-d58f-4365-9c8e-4b0ea0807948',
+    isPersistent: true,
+    version: '23.13.20260126.0403',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 853307671,
+    storageQuotaEstimate: 427110740247,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0925' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2026-01-26 19:18:14.373] [info]                         {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    system_memory_total_gb: 15,
+    system_memory_free: 2937,
+    app_working_set_size_total: 1857,
+    tabs_working_set_size_total: 660,
+    tabs_private_memory_total: 435,
+    prewarmed_tabs_working_set_size_total: 169,
+    main_process_working_set_size_total: 216,
+    gpu_working_set_size_total: 466,
+    network_service_working_set_size_total: 84,
+    sqlite_server_working_set_size_total: -1,
+    audio_service_working_set_size_total: -1,
+    video_capture_service_working_set_size_total: -1,
+    utility_process_working_set_size_total: 181,
+    tab_bar_working_set_size_total: 131,
+    quick_search_working_set_size_total: 203,
+    tab_preview_working_set_size_total: -1,
+    web_contents_working_set_size_total: 334,
+    meeting_notification_working_set_size_total: -1,
+    process_count: 8,
+    tab_process_count: 2,
+    tabs_in_state_count: 1,
+    utility_process_names: [ 'Network Service', 'Sqlite Server' ],
+    web_contents_process_names: [ 'Tab Bar', 'Quick Search' ]
+  }
+}
+[2026-01-26 19:56:58.352] [info]                         Quitting...
+[2026-01-26 19:56:58.364] [error]                        DetachFromWindow: TabController cdacd9a3-e3c8-437a-b33f-4457ec66a686 not attached to any window
+[2026-01-26 19:56:58.368] [info]                         Window with id 1 closed
+[2026-01-27 06:03:12.668] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-27 06:03:12.679] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-27 06:03:12.683] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-27 06:03:12.684] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-27 06:03:12.687] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-27 06:03:12.688] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-27 06:03:12.689] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-27 06:03:12.690] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-27 06:03:12.691] [info]  (AppStatePersister) Successfully read and validated PersistedAppState from disk
+[2026-01-27 06:03:12.692] [info]  (AppStatePersister) Successfully read and validated HistoryState from disk
+[2026-01-27 06:03:12.786] [info]                      AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 17,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/Music-app-110448524476802cb94ecf9f9a50da0a',
+            title: 'Music app:',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-27 06:03:12.815] [info]  (AppStatePersister)    Successfully read and validated PersistedAppState from disk
+[2026-01-27 06:03:12.815] [info]  (AppStatePersister)    Successfully read and validated HistoryState from disk
+[2026-01-27 06:03:12.819] [info]                         App starting with version 7.0.0 (0fcd157) { system: 'linux x64', electron: '37.5.1' }
+[2026-01-27 06:03:13.087] [info]                         {
+  eventName: 'electron_performance_event',
+  eventProperties: {
+    performance_event: 'app_launch_to_app_ready',
+    duration_ms: 1324.465735
+  }
+}
+[2026-01-27 06:03:13.298] [info]                         Activated { options: {} }
+[2026-01-27 06:03:13.299] [info]                         Rehydrating app in foreground {
+  restorationState: {
+    windows: [
+      {
+        windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+        focusOrder: 17,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+            url: 'https://www.notion.so/Music-app-110448524476802cb94ecf9f9a50da0a',
+            title: 'Music app:',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2026-01-27 06:03:13.301] [info]                         {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2026-01-27 06:03:13.379] [warn]                         Window not found
+[2026-01-27 06:03:13.400] [info]                         New window created {
+  windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+  activeTabSectionId: 'ungrouped',
+  showWhenLoaded: true,
+  displayState: {
+    normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+    displayBounds: [ { x: 0, y: 0, width: 1920, height: 1080 } ],
+    isFullScreen: false,
+    isHtmlFullScreen: false,
+    isMaximized: true
+  }
+}
+[2026-01-27 06:03:13.424] [info]                         {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 1,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 1,
+    tab_section_id: 'ungrouped',
+    is_prewarmed_tab: false,
+    is_app_rehydrating: true
+  }
+}
+[2026-01-27 06:03:13.425] [info]                         New Tab Controller {
+  id: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+  initialUrl: 'https://www.notion.so/Music-app-110448524476802cb94ecf9f9a50da0a?loadOrigin=new_tab_on_restore',
+  windowId: '90331ec4-7fe3-4a87-a888-7e1d31942313',
+  loadOrigin: 'new_tab_on_restore',
+  isAppRehydrating: true,
+  tabId: 'b440d021-aafd-4fc4-bca9-79b2b8c0ab3e',
+  fromPrewarmTab: false
+}
+[2026-01-27 06:03:13.433] [info]                         Finished rehydrating entire app in foreground { success: true }
+[2026-01-27 06:03:13.493] [info]                         {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2026-01-27 06:03:13.604] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0925' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'cleanupCachesScheduled'
+}
+[2026-01-27 06:03:14.104] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.0925' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2026-01-27 06:03:15.045] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-27 06:03:15.055] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-27 06:03:15.064] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-27 06:03:15.072] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-27 06:03:15.081] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-27 06:03:15.092] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-27 06:03:15.101] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-27 06:03:15.125] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-27 06:03:15.133] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-27 06:03:15.141] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-27 06:03:15.149] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-27 06:03:15.157] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-27 06:03:15.166] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-27 06:03:15.175] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-27 06:03:15.197] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2026-01-27 06:03:15.207] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2026-01-27 06:03:15.223] [info]                         notion:set-user-preference { key: 'shouldUnloadTabsBeforeRefresh', value: true }
+[2026-01-27 06:03:15.231] [info]                         notion:set-user-preference { key: 'isPrewarmedTabThrottlingEnabled', value: true }
+[2026-01-27 06:03:15.240] [info]                         notion:set-user-preference { key: 'isPrewarmedTabHiddenBehindEnabled', value: false }
+[2026-01-27 06:03:15.248] [info]                         notion:set-user-preference { key: 'isStuckTabWatchdogEnabled', value: false }
+[2026-01-27 06:03:15.256] [info]                         notion:set-user-preference { key: 'shouldUsePrewarmedTabHeuristic', value: true }
+[2026-01-27 06:03:18.081] [info]                         AudioController - initialize { intervalMs: 1000, useMicrophoneStatusEmitter: false }
+[2026-01-27 06:03:20.833] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/app-packages/meetings-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:03:21.334] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/app-packages/docs-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:03:23.603] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    cacheCount: 2,
+    totalCacheCount: 5
+  },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'cleanupCachesDeleting'
+}
+[2026-01-27 06:03:26.266] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/onboarding/skeleton-page-extended-dark.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:03:35.575] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/sharing/free-spots-plane.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:04:12.432] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerV2Version: '23.13.20260126.2020' },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2026-01-27 06:04:45.831] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2026-01-27 06:04:47.648] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/ai-for-work/airplane.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:05:08.317] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/app-packages/meetings-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:05:08.818] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerV2Version: '23.13.20260126.0925',
+    path: '/images/app-packages/docs-icon.svg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2026-01-27 06:08:14.500] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2026-01-27 06:38:17.768] [info]                         Preventing closure for window with id 1, hiding
+[2026-01-27 06:38:25.797] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '7.0.0',
+  desktopCPU: 'AMD Ryzen 7 7435HS',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '602c5bef-47c5-42c9-a5c4-1e38826ddc29',
+    isPersistent: true,
+    version: '23.13.20260126.0925',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/7.0.0 Chrome/138.0.7204.251 Electron/37.5.1 Safari/537.36 WantsServiceWorker',
+    userId: '2ad593e2-c6fe-4aad-9fa6-a79d27b9b95b',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 1281833074,
+    storageQuotaEstimate: 427100538994,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.18.5-zen1-1-zen',
+    desktopElectronVersion: '37.5.1',
+    desktopChromiumVersion: '138.0.7204.251',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '7.0.0'
+  },
+  environment: 'production',
+  level: 'info',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'TypeError',
+    message: 'Object has been destroyed',
+    stack: 'TypeError: Object has been destroyed\n' +
+      '    at t.QuickSearchController.updateQuickSearchState (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:533054)\n' +
+      '    at /usr/lib/notion-app/app.asar/.webpack/main/index.js:2:529524\n' +
+      '    at s (/usr/lib/notion-app/app.asar/.webpack/main/index.js:8:300702)\n' +
+      '    at /usr/lib/notion-app/app.asar/.webpack/main/index.js:8:187214\n' +
+      '    at /usr/lib/notion-app/app.asar/.webpack/main/index.js:2:614054\n' +
+      '    at Map.forEach (<anonymous>)\n' +
+      '    at Object.m [as dispatch] (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:614042)\n' +
+      '    at dispatch (/usr/lib/notion-app/app.asar/.webpack/main/index.js:8:187324)\n' +
+      '    at /usr/lib/notion-app/app.asar/.webpack/main/index.js:8:301528\n' +
+      '    at Object.dispatch (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:626190)'
+  }
+}
+[2026-01-27 06:38:33.460] [error]                        render-process-gone {
+  url: 'file:///usr/lib/notion-app/app.asar/.webpack/renderer/tabs/index.html',
+  details: { reason: 'clean-exit', exitCode: 0 }
+}
+[2026-01-27 06:38:33.468] [error]                        render-process-gone {
+  url: 'https://www.notion.so/blank?tabCount=1',
+  details: { reason: 'clean-exit', exitCode: 0 }
+}
+[2026-01-27 06:38:33.476] [error]                        child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'network.mojom.NetworkService',
+  name: 'Network Service'
+}
+[2026-01-27 06:38:33.524] [error]                        render-process-gone {
+  url: 'https://www.notion.so/quick-search',
+  details: { reason: 'clean-exit', exitCode: 0 }
+}

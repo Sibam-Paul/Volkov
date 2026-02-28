@@ -1,0 +1,321 @@
+OMARCHY SCREENSAVER - DETAILED EXECUTION FLOW
+=============================================
+
+USER IDLE (150 seconds)
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  HYPRIDLE DAEMON (hypridle.conf)                                   │
+│  ~/.config/hypr/hypridle.conf                                      │
+│                                                                     │
+│  listener {                                                         │
+│    timeout = 150                                                    │
+│    on-timeout = pidof hyprlock || omarchy-launch-screensaver       │
+│  }                                                                  │
+│                                                                     │
+│  ✓ Checks if screen is NOT locked (pidof hyprlock)                │
+│  ✓ If not locked → Launch screensaver                             │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  LAUNCHER: omarchy-launch-screensaver                              │
+│  Location: bin/omarchy-launch-screensaver                          │
+│                                                                     │
+│  CHECKS:                                                            │
+│  1. tte command exists? ──[NO]──> EXIT                            │
+│  2. Already running? ──[YES]──> EXIT                              │
+│  3. Disabled toggle file exists? ──[YES]──> EXIT (unless forced)  │
+│                                                                     │
+│  ACTIONS:                                                           │
+│  • Close Walker overlay (walker -q)                                │
+│  • Get current focused monitor                                      │
+│  • Get default terminal (xdg-terminal-exec --print-id)            │
+│                                                                     │
+│  LOOP FOR EACH MONITOR:                                            │
+│  ┌──────────────────────────────────────────────────────────────┐ │
+│  │ for m in $(hyprctl monitors -j | jq -r '.[] | .name'); do   │ │
+│  │   hyprctl dispatch focusmonitor $m                           │ │
+│  │   case $terminal in                                          │ │
+│  │     *Alacritty*) Launch with Alacritty config                │ │
+│  │     *ghostty*)   Launch with Ghostty config                  │ │
+│  │     *kitty*)     Launch with Kitty config                    │ │
+│  │   esac                                                        │ │
+│  │ done                                                          │ │
+│  └──────────────────────────────────────────────────────────────┘ │
+│                                                                     │
+│  • Restore original focused monitor                                │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  TERMINAL LAUNCHES (one per monitor)                               │
+│                                                                     │
+│  ALACRITTY:                                                         │
+│  alacritty --class=org.omarchy.screensaver \                       │
+│    --config-file ~/.local/share/omarchy/default/alacritty/         │
+│                   screensaver.toml \                               │
+│    -e omarchy-cmd-screensaver                                      │
+│                                                                     │
+│  GHOSTTY:                                                           │
+│  ghostty --class=org.omarchy.screensaver \                         │
+│    --config-file=~/.local/share/omarchy/default/ghostty/           │
+│                   screensaver \                                    │
+│    --font-size=18 \                                                │
+│    -e omarchy-cmd-screensaver                                      │
+│                                                                     │
+│  KITTY:                                                             │
+│  kitty --class=org.omarchy.screensaver \                           │
+│    --override font_size=18 \                                       │
+│    --override window_padding_width=0 \                            │
+│    -e omarchy-cmd-screensaver                                      │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  HYPRLAND WINDOW RULES (applied automatically)                     │
+│  Location: default/hypr/apps/system.conf                           │
+│                                                                     │
+│  windowrule = fullscreen on, match:class org.omarchy.screensaver  │
+│  windowrule = float on, match:class org.omarchy.screensaver       │
+│                                                                     │
+│  ✓ Window appears fullscreen                                      │
+│  ✓ Window is floating (not tiled)                                 │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  SCREENSAVER EXECUTION: omarchy-cmd-screensaver                    │
+│  Location: bin/omarchy-cmd-screensaver                             │
+│                                                                     │
+│  SETUP PHASE:                                                       │
+│  ┌──────────────────────────────────────────────────────────────┐ │
+│  │ 1. Define helper functions:                                  │ │
+│  │    • screensaver_in_focus() - Check if window is focused     │ │
+│  │    • exit_screensaver() - Cleanup and exit                   │ │
+│  │                                                               │ │
+│  │ 2. Set signal traps:                                         │ │
+│  │    trap exit_screensaver SIGINT SIGTERM SIGHUP SIGQUIT      │ │
+│  │                                                               │ │
+│  │ 3. Configure terminal:                                       │ │
+│  │    • Set background to black (ANSI escape code)              │ │
+│  │    • Hide cursor: hyprctl keyword cursor:invisible true      │ │
+│  │                                                               │ │
+│  │ 4. Get TTY for process monitoring:                           │ │
+│  │    tty=$(tty 2>/dev/null)                                    │ │
+│  └──────────────────────────────────────────────────────────────┘ │
+│                                                                     │
+│  MAIN LOOP (infinite):                                             │
+│  ┌──────────────────────────────────────────────────────────────┐ │
+│  │ while true; do                                               │ │
+│  │                                                               │ │
+│  │   # Launch TTE with random effect                            │ │
+│  │   tte -i ~/.config/omarchy/branding/screensaver.txt \        │ │
+│  │     --frame-rate 120 \                                       │ │
+│  │     --canvas-width 0 \      # Auto-detect width              │ │
+│  │     --canvas-height 0 \     # Auto-detect height             │ │
+│  │     --reuse-canvas \         # Keep same canvas              │ │
+│  │     --anchor-canvas c \      # Center canvas                 │ │
+│  │     --anchor-text c \        # Center text                   │ │
+│  │     --random-effect \        # Random animation              │ │
+│  │     --exclude-effects dev_worm \ # Skip worm effect          │ │
+│  │     --no-eol \               # No end of line                │ │
+│  │     --no-restore-cursor &    # Don't restore cursor          │ │
+│  │                                                               │ │
+│  │   # Monitor TTE process                                      │ │
+│  │   while pgrep -t "${tty#/dev/}" -x tte >/dev/null; do       │ │
+│  │     # Check for input (1 second timeout)                     │ │
+│  │     if read -n1 -t 1; then                                   │ │
+│  │       exit_screensaver  # User pressed key                   │ │
+│  │     fi                                                        │ │
+│  │                                                               │ │
+│  │     # Check if window still has focus                        │ │
+│  │     if ! screensaver_in_focus; then                          │ │
+│  │       exit_screensaver  # User switched window               │ │
+│  │     fi                                                        │ │
+│  │   done                                                        │ │
+│  │                                                               │ │
+│  │   # TTE finished, loop again with new random effect          │ │
+│  │ done                                                          │ │
+│  └──────────────────────────────────────────────────────────────┘ │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  TTE (Terminal Text Effects)                                       │
+│  Command: tte                                                       │
+│  Package: python-terminaltexteffects                               │
+│                                                                     │
+│  WHAT IT DOES:                                                      │
+│  • Reads ASCII art from file                                       │
+│  • Applies random animation effect                                 │
+│  • Renders at 120 FPS                                              │
+│  • Auto-sizes to terminal dimensions                               │
+│  • Centers content on screen                                       │
+│                                                                     │
+│  EXAMPLE EFFECTS:                                                   │
+│  • Matrix - Falling characters like Matrix movie                   │
+│  • Fireworks - Explosive animations                                │
+│  • Rain - Falling rain effect                                      │
+│  • Decrypt - Decryption sequence animation                         │
+│  • Synthgrid - Retro synthwave grid                                │
+│  • Blackhole - Text sucked into black hole                         │
+│  • Beams - Light beam effects                                      │
+│  • ... and many more!                                              │
+│                                                                     │
+│  When effect completes, the loop starts again with new effect      │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  USER INPUT DETECTED!                                              │
+│  (Keyboard press, mouse move, or window loses focus)               │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+┌────────────────────────────────────────────────────────────────────┐
+│  EXIT HANDLER: exit_screensaver()                                  │
+│                                                                     │
+│  1. Show cursor:                                                    │
+│     hyprctl keyword cursor:invisible false                         │
+│                                                                     │
+│  2. Kill TTE process:                                              │
+│     pkill -x tte                                                   │
+│                                                                     │
+│  3. Kill all screensaver windows:                                  │
+│     pkill -f org.omarchy.screensaver                               │
+│                                                                     │
+│  4. Exit script:                                                    │
+│     exit 0                                                          │
+└────────────────────────────────────────────────────────────────────┘
+         |
+         v
+    USER RETURNS TO NORMAL DESKTOP
+
+
+═══════════════════════════════════════════════════════════════════════
+CONFIGURATION FILES INVOLVED
+═══════════════════════════════════════════════════════════════════════
+
+1. config/hypr/hypridle.conf
+   └─> Defines when to trigger screensaver (150s timeout)
+
+2. bin/omarchy-launch-screensaver
+   └─> Main launcher script that handles multi-monitor setup
+
+3. bin/omarchy-cmd-screensaver
+   └─> The actual screensaver command that runs TTE
+
+4. default/alacritty/screensaver.toml
+   └─> Alacritty-specific config (black background, font size 18)
+
+5. default/ghostty/screensaver
+   └─> Ghostty-specific config (no padding)
+
+6. default/hypr/apps/system.conf
+   └─> Hyprland window rules (fullscreen, floating)
+
+7. ~/.config/omarchy/branding/screensaver.txt
+   └─> ASCII art file to display (the logo/text)
+
+
+═══════════════════════════════════════════════════════════════════════
+KEY TECHNOLOGIES
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────┬──────────────────────────────────────────────┐
+│ TECHNOLOGY          │ PURPOSE                                      │
+├─────────────────────┼──────────────────────────────────────────────┤
+│ Hyprland            │ Wayland compositor, window management        │
+│ Hypridle            │ Idle detection daemon                        │
+│ TTE                 │ Terminal text animation engine               │
+│ Alacritty/Ghostty   │ Terminal emulator                            │
+│ Bash                │ Scripting and orchestration                  │
+│ hyprctl             │ Hyprland control utility                     │
+│ jq                  │ JSON parsing for monitor detection           │
+│ pgrep/pkill         │ Process management                           │
+└─────────────────────┴──────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════
+FILE DEPENDENCY GRAPH
+═══════════════════════════════════════════════════════════════════════
+
+hypridle.conf
+    │
+    └──calls──> omarchy-launch-screensaver
+                    │
+                    ├──reads──> (Monitors via hyprctl)
+                    │
+                    ├──launches──> Terminal (Alacritty/Ghostty/Kitty)
+                    │                  │
+                    │                  └──uses──> screensaver.toml/screensaver
+                    │                             (Terminal config)
+                    │
+                    └──executes──> omarchy-cmd-screensaver
+                                       │
+                                       ├──calls──> tte
+                                       │            │
+                                       │            └──reads──> screensaver.txt
+                                       │                         (ASCII art)
+                                       │
+                                       └──applies──> Window rules
+                                                     (system.conf)
+
+
+═══════════════════════════════════════════════════════════════════════
+PROCESS LIFECYCLE
+═══════════════════════════════════════════════════════════════════════
+
+START:
+------
+hypridle (daemon)
+    └─> omarchy-launch-screensaver (script, exits after launch)
+            └─> alacritty (per monitor)
+                    └─> omarchy-cmd-screensaver (per terminal)
+                            └─> tte (animation loop)
+
+RUNNING:
+--------
+• Multiple terminal windows (one per monitor)
+• Each terminal runs omarchy-cmd-screensaver
+• Each screensaver runs tte in a loop
+• Each iteration uses a different random effect
+
+EXIT:
+-----
+• User input triggers exit_screensaver()
+• All tte processes killed
+• All screensaver terminal windows closed
+• Cursor restored
+• User returns to desktop
+
+
+═══════════════════════════════════════════════════════════════════════
+SIGNAL FLOW
+═══════════════════════════════════════════════════════════════════════
+
+KEYBOARD/MOUSE INPUT
+        │
+        ├──> read -n1 -t 1 detects input
+        │
+        └──> Calls exit_screensaver()
+                 │
+                 ├──> Show cursor
+                 ├──> Kill TTE
+                 ├──> Kill all screensaver windows
+                 └──> Exit
+
+WINDOW LOSES FOCUS
+        │
+        └──> screensaver_in_focus() returns false
+                 │
+                 └──> Calls exit_screensaver()
+                          (same cleanup as above)
+
+SIGNALS (SIGINT, SIGTERM, etc.)
+        │
+        └──> Trapped by: trap exit_screensaver SIGINT SIGTERM ...
+                 │
+                 └──> Calls exit_screensaver()
+                          (same cleanup as above)

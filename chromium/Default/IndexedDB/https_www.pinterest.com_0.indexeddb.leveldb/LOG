@@ -1,0 +1,6 @@
+2026/02/18-12:04:03.692 85c Creating DB /home/sibam/.config/chromium/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb since it was missing.
+2026/02/18-12:04:03.705 85c Reusing MANIFEST /home/sibam/.config/chromium/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/18-12:05:49.840 85d Level-0 table #5: started
+2026/02/18-12:05:49.845 85d Level-0 table #5: 203612 bytes OK
+2026/02/18-12:05:49.851 85d Delete type=0 #3
+2026/02/18-12:05:49.851 85d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,123 @@
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Modules initializing
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Distribution: remote
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Host updates: enabled
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Module updates: enabled
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Module install path: /home/sibam/.config/discord/0.0.120/modules
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Module installed file path: /home/sibam/.config/discord/0.0.120/modules/installed.json
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Module download path: /home/sibam/.config/discord/0.0.120/modules/pending
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Bootstrapping...
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Finished module installations. [success: 0] [failure: 6]
+1/17/2026, 8:21:41 PM GMT+5:30 [Modules] Checking for host updates.
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Host is up to date.
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Module update available: discord_desktop_core@2 [installed: 0]
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Module update available: discord_erlpack@1 [installed: 0]
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Module update available: discord_utils@1 [installed: 0]
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Module update available: discord_voice@1 [installed: 0]
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Module update available: discord_zstd@1 [installed: 0]
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Fetching discord_desktop_core@2 from https://discord.com/api/modules/stable/discord_desktop_core/2
+1/17/2026, 8:21:42 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 1%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 2%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 3%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 4%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 5%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 6%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 7%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 8%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 9%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 10%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 11%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 12%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 14%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 16%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 17%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 18%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 19%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 20%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 21%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 22%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 23%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 24%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 25%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 26%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 27%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 28%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 29%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 30%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 31%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 32%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 33%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 35%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 37%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 38%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 39%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 40%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 41%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 42%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 43%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 45%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 46%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 47%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 48%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 49%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 50%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 51%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 52%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 53%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 54%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 56%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 59%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 60%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 61%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 63%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 64%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 65%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 66%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 67%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 68%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 70%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 71%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 73%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 75%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 76%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 78%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 79%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 80%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 83%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 85%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 87%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 88%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 89%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 90%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 91%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 92%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 93%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 94%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 95%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 96%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 98%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 99%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_desktop_core@2 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_desktop_core-2.zip: 100%
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+1/17/2026, 8:21:43 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip
+1/17/2026, 8:21:44 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 2%
+1/17/2026, 8:21:44 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 4%
+1/17/2026, 8:21:44 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 5%
+1/17/2026, 8:21:46 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 7%
+1/17/2026, 8:21:46 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 9%
+1/17/2026, 8:21:48 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 11%
+1/17/2026, 8:21:48 PM GMT+5:30 [Modules] Streaming discord_erlpack@1 to /home/sibam/.config/discord/0.0.120/modules/pending/discord_erlpack-1.zip: 12%

@@ -1,0 +1,2 @@
+2026-02-04 19:17:27.637 [error] Failed to set sticky bit on /tmp/sibam-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/sibam-code-zsh'
+2026-02-04 19:18:22.918 [warning] Shell integration cannot be enabled for executable "/usr/bin/tmux" and args undefined

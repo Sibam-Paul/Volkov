@@ -1,0 +1,50 @@
+2026-01-24 18:43:44.559 [info] Started local extension host with pid 2617.
+2026-01-24 18:43:46.816 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-24 18:43:47.157 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-24 18:43:48.314 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-01-24 18:43:48.332 [error] [Extension Host] (node:2617) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-24 18:43:48.415 [error] [Extension Host] (node:2617) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-24 18:43:48.788 [info] Auto updating outdated extensions. github.copilot-chat, pkief.material-icon-theme
+2026-01-24 18:43:48.793 [info] [perf] Render performance baseline is 42ms
+2026-01-24 18:43:50.549 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-24 18:43:51.401 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-24 18:43:55.712 [error] Unknown error while installing extension pkief.material-icon-theme: Unknown: Unknown error while installing extension pkief.material-icon-theme
+    at Wh.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)
+2026-01-24 18:43:59.144 [info] Extension host (LocalProcess pid: 2617) is unresponsive.
+2026-01-24 18:44:00.139 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-01-24 18:44:01.131 [info] Extension host (LocalProcess pid: 2617) is responsive.
+2026-01-24 18:44:01.132 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-01-24 18:44:01.296 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 92.2882488270929% of 918.628ms, saved PROFILE here: 'file:///tmp/exthost-1437ae.cpuprofile'
+2026-01-24 18:44:34.207 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/sibam/.vscode/extensions/.934f6a85-777a-4752-b76b-ab2032bf62bd/dist/extension/web' failed: No such file or directory (EUNKNOWN) (path: /home/sibam)
+2026-01-24 18:44:34.207 [error] [File Watcher (universal)] inotify_add_watch on '/home/sibam/.vscode/extensions/.934f6a85-777a-4752-b76b-ab2032bf62bd/dist/extension/web' failed: No such file or directory
+2026-01-24 18:45:46.681 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-01-24 18:47:25.026 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/togetherai%401.0.31%40%40%401/package.json 
+2026-01-24 18:47:25.027 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/cohere%402.0.22%40%40%401/package.json 
+2026-01-24 18:47:25.027 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/vercel/1.0.31%40%40%401/package.json 
+2026-01-24 18:47:25.028 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/openai/2.0.2%40%40%401/package.json 
+2026-01-24 18:47:25.028 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/provider-utils/3.0.20%40%40%401/package.json 
+2026-01-24 18:47:25.030 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/xai%402.0.51%40%40%401/package.json 
+2026-01-24 18:47:25.031 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/amazon-bedrock/3.0.73%40%40%401/package.json 
+2026-01-24 18:47:25.031 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/mistral%402.0.27%40%40%401/package.json 
+2026-01-24 18:47:25.031 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/openai-compatible%401.0.1%40%40%401/package.json 
+2026-01-24 18:47:25.032 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/groq%402.0.34%40%40%401/package.json 
+2026-01-24 18:47:25.032 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/provider%402.0.1%40%40%401/package.json 
+2026-01-24 18:47:25.033 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/provider/2.0.0%40%40%401/package.json 
+2026-01-24 18:47:25.033 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/google-vertex%403.0.97%40%40%401/package.json 
+2026-01-24 18:47:25.033 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/anthropic/2.0.0%40%40%401/package.json 
+2026-01-24 18:47:25.034 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/provider/2.0.1%40%40%401/package.json 
+2026-01-24 18:47:25.034 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/anthropic/2.0.57%40%40%401/package.json 
+2026-01-24 18:47:25.034 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/b4a/1.7.3%40%40%401/package.json 
+2026-01-24 18:47:25.035 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/graceful-fs/4.2.11%40%40%401/package.json 
+2026-01-24 18:47:25.035 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.cache/.bun/install/cache/%40ai-sdk/openai-compatible/1.0.30%40%40%401/package.json 
+2026-01-24 18:47:25.036 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.vscode/extensions/github.copilot-chat-0.36.1/package.json 
+2026-01-24 18:47:25.036 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.vscode/extensions/pkief.material-icon-theme-5.31.0/package.json 
+2026-01-24 18:47:25.036 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/pnpm/store/v10/tmp/_tmp_309528_0238388207fa57f3427221ff0d1b9778/package.json 
+2026-01-24 18:47:25.037 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/pnpm/store/v10/tmp/_tmp_309528_a5c359275b62432c14b49459fcb9f78b/package.json 
+2026-01-24 18:47:25.037 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/pnpm/.tools/pnpm/10.7.1/package.json 
+2026-01-24 18:47:25.037 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/zed/prettier/package.json 
+2026-01-24 18:47:25.037 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/zed/languages/tailwindcss-language-server/package.json 
+2026-01-24 18:47:25.038 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/nvim/lazy/LuaSnip/tests/data/vscode-snippets/package.json 
+2026-01-24 18:47:25.038 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/nvim/lazy/LuaSnip/tests/symlinked_data/symlink-vscode/snippets/package.json 
+2026-01-24 18:47:25.039 [warning] [backup tracker] suspended, ignoring unregister event file:///home/sibam/.local/share/nvim/lazy/friendly-snippets/package.json 

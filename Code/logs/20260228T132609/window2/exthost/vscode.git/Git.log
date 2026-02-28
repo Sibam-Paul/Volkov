@@ -1,0 +1,107 @@
+2026-02-28 13:35:38.703 [info] [main] Log level: Info
+2026-02-28 13:35:38.703 [info] [main] Validating found git in: "git"
+2026-02-28 13:35:38.703 [info] [main] Using git "2.52.0" from "git"
+2026-02-28 13:35:38.703 [info] [Model][doInitialScan] Initial repository scan started
+2026-02-28 13:35:38.703 [info] > git rev-parse --show-toplevel [10ms]
+2026-02-28 13:35:38.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.703 [info] > git rev-parse --show-toplevel [7ms]
+2026-02-28 13:35:38.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.703 [info] > git rev-parse --show-toplevel [3ms]
+2026-02-28 13:35:38.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.703 [info] > git rev-parse --show-toplevel [5ms]
+2026-02-28 13:35:38.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.703 [info] > git rev-parse --show-toplevel [45ms]
+2026-02-28 13:35:38.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.704 [info] > git rev-parse --show-toplevel [70ms]
+2026-02-28 13:35:38.704 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.769 [info] > git rev-parse --show-toplevel [13ms]
+2026-02-28 13:35:38.769 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.784 [info] > git rev-parse --show-toplevel [2ms]
+2026-02-28 13:35:38.784 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.799 [info] > git rev-parse --show-toplevel [3ms]
+2026-02-28 13:35:38.799 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.814 [info] > git rev-parse --show-toplevel [3ms]
+2026-02-28 13:35:38.814 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.828 [info] > git rev-parse --show-toplevel [3ms]
+2026-02-28 13:35:38.828 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:35:38.833 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-02-28 13:35:39.901 [info] > git rev-parse --show-toplevel [408ms]
+2026-02-28 13:35:39.901 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-28 13:37:24.641 [info] > git rev-parse --show-toplevel [2ms]
+2026-02-28 13:37:24.664 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-02-28 13:37:24.689 [info] [Model][openRepository] Opened repository (path): /home/sibam/.config/hypr
+2026-02-28 13:37:24.690 [info] [Model][openRepository] Opened repository (real path): /home/sibam/.config/hypr
+2026-02-28 13:37:24.690 [info] [Model][openRepository] Opened repository (kind): repository
+2026-02-28 13:37:24.718 [info] > git config --get commit.template [7ms]
+2026-02-28 13:37:24.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-02-28 13:37:24.766 [info] > git status -z -uall [15ms]
+2026-02-28 13:37:24.770 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-02-28 13:37:24.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2026-02-28 13:37:24.884 [info] > git config --get --local branch.main.vscode-merge-base [9ms]
+2026-02-28 13:37:24.884 [warning] [Git][config] git config failed: Failed to execute git
+2026-02-28 13:37:24.899 [info] > git config --get commit.template [42ms]
+2026-02-28 13:37:24.922 [info] > git reflog main --grep-reflog=branch: Created from *. [24ms]
+2026-02-28 13:37:24.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2026-02-28 13:37:24.970 [info] > git status -z -uall [17ms]
+2026-02-28 13:37:24.971 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [34ms]
+2026-02-28 13:37:24.971 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-02-28 13:37:24.971 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-02-28 13:37:24.975 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-02-28 13:37:25.288 [info] > git check-ignore -v -z --stdin [3ms]
+2026-02-28 13:37:31.973 [info] > git config --get commit.template [16ms]
+2026-02-28 13:37:31.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-02-28 13:37:32.007 [info] > git status -z -uall [16ms]
+2026-02-28 13:37:32.009 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-02-28 13:37:32.038 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2026-02-28 13:37:32.058 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 006cf6c65968dcd3d026dc0012bdf6bb837339aa...refs/remotes/origin/main -- [3ms]
+2026-02-28 13:37:36.532 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2026-02-28 13:37:37.275 [info] > git check-ignore -v -z --stdin [2ms]
+2026-02-28 13:37:37.433 [info] > git merge-base main origin/main [3ms]
+2026-02-28 13:37:41.202 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [4ms]
+2026-02-28 13:37:41.324 [info] > git merge-base main origin/main [4ms]
+2026-02-28 13:37:42.947 [info] > git hash-object -t tree /dev/null [2ms]
+2026-02-28 13:37:42.967 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 006cf6c65968dcd3d026dc0012bdf6bb837339aa -- [4ms]
+2026-02-28 13:37:43.510 [info] > git check-ignore -v -z --stdin [3ms]
+2026-02-28 13:37:57.558 [info] > git check-ignore -v -z --stdin [3ms]
+2026-02-28 13:38:07.931 [info] > git config --get commit.template [19ms]
+2026-02-28 13:38:07.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-02-28 13:38:07.965 [info] > git status -z -uall [17ms]
+2026-02-28 13:38:07.967 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-02-28 13:38:08.317 [info] > git check-ignore -v -z --stdin [3ms]
+2026-02-28 13:38:08.388 [info] > git show --textconv :UserScripts/ZshChangeTheme.sh [50ms]
+2026-02-28 13:38:08.388 [info] > git show --textconv HEAD:UserScripts/ZshChangeTheme.sh [34ms]
+2026-02-28 13:38:08.388 [info] > git ls-files --stage -- UserScripts/ZshChangeTheme.sh [17ms]
+2026-02-28 13:38:08.404 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/sibam/.config/hypr/UserScripts/ZshChangeTheme.sh.git?%7B%22path%22%3A%22%2Fhome%2Fsibam%2F.config%2Fhypr%2FUserScripts%2FZshChangeTheme.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-02-28 13:38:08.407 [info] > git cat-file -s cffaf5cb7f0f1eac4a060c5b574d593b6f62340c [4ms]
+2026-02-28 13:38:08.407 [info] > git ls-tree -l HEAD -- UserScripts/ZshChangeTheme.sh [20ms]
+2026-02-28 13:38:08.408 [warning] [GitFileSystemProvider][stat] File not found - git:/home/sibam/.config/hypr/UserScripts/ZshChangeTheme.sh.git?%7B%22path%22%3A%22%2Fhome%2Fsibam%2F.config%2Fhypr%2FUserScripts%2FZshChangeTheme.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-02-28 13:38:08.451 [info] > git blame --root --incremental 006cf6c65968dcd3d026dc0012bdf6bb837339aa -- UserScripts/ZshChangeTheme.sh [3ms]
+2026-02-28 13:38:08.451 [info] fatal: no such path UserScripts/ZshChangeTheme.sh in 006cf6c65968dcd3d026dc0012bdf6bb837339aa
+2026-02-28 13:38:13.007 [info] > git config --get commit.template [16ms]
+2026-02-28 13:38:13.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-02-28 13:38:13.041 [info] > git status -z -uall [17ms]
+2026-02-28 13:38:13.043 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-02-28 13:38:13.086 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2026-02-28 13:38:13.101 [info] > git blame --root --incremental af117f8080b4a2b64865191d083b3cbfdcbabdf2 -- UserScripts/ZshChangeTheme.sh [36ms]
+2026-02-28 13:38:13.123 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 006cf6c65968dcd3d026dc0012bdf6bb837339aa...refs/remotes/origin/main -- [22ms]
+2026-02-28 13:38:13.141 [info] > git ls-files --stage -- UserScripts/ZshChangeTheme.sh [20ms]
+2026-02-28 13:38:13.155 [info] > git cat-file -s cffaf5cb7f0f1eac4a060c5b574d593b6f62340c [2ms]
+2026-02-28 13:38:13.211 [info] > git show --textconv :UserScripts/ZshChangeTheme.sh [3ms]
+2026-02-28 13:38:13.213 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [74ms]
+2026-02-28 13:38:13.238 [info] > git merge-base main origin/main [3ms]
+2026-02-28 13:38:13.275 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 006cf6c65968dcd3d026dc0012bdf6bb837339aa -- [4ms]
+2026-02-28 13:38:13.400 [info] > git check-ignore -v -z --stdin [3ms]
+2026-02-28 13:38:23.714 [info] > git config --get commit.template [17ms]
+2026-02-28 13:38:23.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-02-28 13:38:23.748 [info] > git status -z -uall [16ms]
+2026-02-28 13:38:23.750 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-02-28 13:38:23.774 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2026-02-28 13:38:23.807 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% af117f8080b4a2b64865191d083b3cbfdcbabdf2...refs/remotes/origin/main -- [17ms]
+2026-02-28 13:38:23.825 [info] > git ls-files --stage -- UserScripts/ZshChangeTheme.sh [2ms]
+2026-02-28 13:38:23.843 [info] > git cat-file -s cffaf5cb7f0f1eac4a060c5b574d593b6f62340c [3ms]
+2026-02-28 13:38:23.863 [info] > git show --textconv :UserScripts/ZshChangeTheme.sh [3ms]
+2026-02-28 13:38:23.877 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [72ms]
+2026-02-28 13:38:23.909 [info] > git merge-base main origin/main [3ms]
+2026-02-28 13:38:23.931 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 006cf6c65968dcd3d026dc0012bdf6bb837339aa -- [4ms]
+2026-02-28 13:40:16.627 [info] > git check-ignore -v -z --stdin [1ms]
+2026-02-28 13:40:21.594 [info] > git check-ignore -v -z --stdin [2ms]

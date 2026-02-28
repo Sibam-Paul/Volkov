@@ -1,0 +1,7 @@
+[2026-02-07 20:12:12.192] [info]  No state version found, assuming empty state.
+[2026-02-07 20:12:12.488] [info]  [Process Isolation] Isolating process from debuggers and memory dumps
+[2026-02-07 20:12:12.608] [info]  Coredumps are disabled in renderer process
+[2026-02-07 20:12:14.106] [info]  [Native Messaging IPC] Clearing connected apps
+[2026-02-07 20:12:14.110] [info]  State version: 72
+[2026-02-07 20:12:14.427] [info]  Retrieving application id
+[2026-02-07 20:12:15.226] [info]  Environment did not respond in time, emitting previous config.

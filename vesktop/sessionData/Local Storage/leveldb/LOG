@@ -1,0 +1,18 @@
+2026/02/26-21:20:13.785 70de Reusing MANIFEST /home/sibam/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/02/26-21:20:13.797 70de Recovering log #49
+2026/02/26-21:20:13.797 70de Reusing old log /home/sibam/.config/vesktop/sessionData/Local Storage/leveldb/000049.log 
+2026/02/26-21:21:13.801 70de Level-0 table #53: started
+2026/02/26-21:21:13.846 70de Level-0 table #53: 22540 bytes OK
+2026/02/26-21:21:13.851 70de Delete type=0 #49
+2026/02/26-21:21:13.851 70de Compacting 4@0 + 1@1 files
+2026/02/26-21:21:13.857 70de Generated table #54@0: 54 keys, 53057 bytes
+2026/02/26-21:21:13.857 70de Compacted 4@0 + 1@1 files => 53057 bytes
+2026/02/26-21:21:13.862 70de compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/26-21:21:13.862 70de Delete type=2 #53
+2026/02/26-21:21:13.862 70de Delete type=2 #42
+2026/02/26-21:21:13.862 70de Delete type=2 #50
+2026/02/26-21:21:13.862 70de Delete type=2 #47
+2026/02/26-21:21:13.862 70de Delete type=2 #45
+2026/02/26-23:29:12.819 7173 Level-0 table #56: started
+2026/02/26-23:29:12.828 7173 Level-0 table #56: 48007 bytes OK
+2026/02/26-23:29:12.834 7173 Delete type=0 #52

@@ -1,0 +1,27 @@
+2026-02-28 13:26:16.921 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-02-28 13:26:16.921 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-02-28 13:26:16.921 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-02-28 13:26:16.921 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-02-28 13:26:17.276 [info] Logged in as Sibam-Paul
+2026-02-28 13:26:17.286 [info] Using the Electron fetcher.
+2026-02-28 13:26:17.431 [error] Copilot extension not found
+2026-02-28 13:26:17.471 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/sibam/.vscode/extensions/github.copilot-chat-0.36.2/node_modules/@github/copilot/prebuilds/linux-x64
+2026-02-28 13:26:17.471 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/sibam/.vscode/extensions/github.copilot-chat-0.36.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-02-28 13:26:17.490 [info] Found 1 entries to copy: pty.node
+2026-02-28 13:26:17.503 [info] Found 1 entries to copy: rg
+2026-02-28 13:26:18.350 [info] Got Copilot token for Sibam-Paul
+2026-02-28 13:26:18.350 [info] Copilot Chat: 0.36.2, VS Code: 1.108.1
+2026-02-28 13:26:18.363 [info] activationBlocker from 'languageModelAccess' took for 999ms
+2026-02-28 13:26:18.461 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2026-02-28 13:26:18.461 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-28 13:26:18.478 [info] Registering default platform agent...
+2026-02-28 13:26:18.479 [info] activationBlocker from 'conversationFeature' took for 1127ms
+2026-02-28 13:26:18.481 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-02-28 13:26:18.484 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-02-28 13:26:18.579 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-02-28 13:26:19.612 [info] Fetched model metadata in 2211ms 665e498e-7e74-49db-a90e-585cede8c276
+2026-02-28 13:26:20.893 [info] Latest entry: ccreq:latest.copilotmd
+2026-02-28 13:26:20.894 [info] ccreq:b3e34e61.copilotmd | markdown
+2026-02-28 13:26:30.396 [info] Refetch model metadata: Succeeded in 4485ms e17127de-fe02-448d-9548-7ac32d10c0d9 (818C:46197:1058761:1487666:69A29FAA) using node-fetch with status 200.
+2026-02-28 13:26:32.489 [info] Refetch model metadata: Succeeded in 2093ms 24c93d9a-24c3-4584-b1a9-e535ed93af3c (7C7F:18729A:10CA43F:14F9280:69A29FAE) using electron-fetch with status 200.
+2026-02-28 13:26:34.028 [info] Refetch model metadata: Succeeded in 1539ms e7cee5c1-42e3-4e5e-82d5-3270fafcb948 (1DAF:216B3C:10C8B57:14F7779:69A29FB1) using node-http with status 200.

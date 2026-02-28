@@ -1,0 +1,21 @@
+2026/01/26-17:18:14.520 21c0 Reusing MANIFEST /home/sibam/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2026/01/26-17:18:14.533 21c0 Recovering log #8
+2026/01/26-17:18:14.533 21c0 Reusing old log /home/sibam/.config/Notion/Partitions/notion/Local Storage/leveldb/000008.log 
+2026/01/26-17:19:14.542 21c1 Level-0 table #12: started
+2026/01/26-17:19:14.560 21c1 Level-0 table #12: 303634 bytes OK
+2026/01/26-17:19:14.566 21c1 Delete type=0 #8
+2026/01/26-17:20:15.092 21c1 Level-0 table #14: started
+2026/01/26-17:20:15.105 21c1 Level-0 table #14: 305068 bytes OK
+2026/01/26-17:20:15.111 21c1 Delete type=0 #11
+2026/01/26-17:42:35.914 21c1 Level-0 table #16: started
+2026/01/26-17:42:35.958 21c1 Level-0 table #16: 20025 bytes OK
+2026/01/26-17:42:35.964 21c1 Delete type=0 #13
+2026/01/26-17:42:35.965 21c1 Compacting 4@0 + 1@1 files
+2026/01/26-17:42:36.006 21c1 Generated table #17@0: 118 keys, 907112 bytes
+2026/01/26-17:42:36.006 21c1 Compacted 4@0 + 1@1 files => 907112 bytes
+2026/01/26-17:42:36.011 21c1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/26-17:42:36.012 21c1 Delete type=2 #16
+2026/01/26-17:42:36.012 21c1 Delete type=2 #14
+2026/01/26-17:42:36.012 21c1 Delete type=2 #7
+2026/01/26-17:42:36.012 21c1 Delete type=2 #12
+2026/01/26-17:42:36.012 21c1 Delete type=2 #9

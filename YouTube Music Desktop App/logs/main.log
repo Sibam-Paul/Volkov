@@ -1,0 +1,163 @@
+[2026-01-17 13:51:41.606][main][info] Application launched
+[2026-01-17 13:51:41.630][main][info] Application set as default protcol client for 'ytmd'
+[2026-01-17 13:51:41.650][main][info] Created memory store
+[2026-01-17 13:51:41.666][main][info] Performing store migration from 0.0.0 to >=2.0.0
+[2026-01-17 13:51:41.680][main][info] Performing store migration from >=2.0.0 to >=2.0.1
+[2026-01-17 13:51:41.685][main][info] Performing store migration from >=2.0.1 to >=2.0.7
+[2026-01-17 13:51:41.694][main][info] Created electron store
+[2026-01-17 13:51:45.320][main][info] Application ready
+[2026-01-17 13:51:45.325][main][info] Setup IPC handlers
+[2026-01-17 13:51:45.327][main][info] Setup permission handlers
+[2026-01-17 13:51:45.327][main][info] Unregistered shortcuts
+[2026-01-17 13:51:45.328][main][info] Registered shortcuts
+[2026-01-17 13:51:45.331][main][info] Created tray icon
+[2026-01-17 13:51:45.381][main][info] Created main window
+[2026-01-17 13:51:45.385][main][info] Created YTM view
+[2026-01-17 13:51:45.386][main][info] Setup taskbar features
+[2026-01-17 13:51:45.386][main][info] Integration update: Zoom Factor
+[2026-01-17 13:51:45.386][main][info] Starting enabled integrations
+[2026-01-17 13:51:47.173][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2026-01-17 13:51:47.174][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-17 13:52:11.850][main][info] Application quitting
+
+
+[2026-01-17 15:54:32.251][main][info] Application launched
+[2026-01-17 15:54:32.290][main][info] Application set as default protcol client for 'ytmd'
+[2026-01-17 15:54:32.317][main][info] Created memory store
+[2026-01-17 15:54:32.329][main][info] Created electron store
+[2026-01-17 15:54:32.515][main][info] Application ready
+[2026-01-17 15:54:32.517][main][info] Setup IPC handlers
+[2026-01-17 15:54:32.519][main][info] Setup permission handlers
+[2026-01-17 15:54:32.520][main][info] Unregistered shortcuts
+[2026-01-17 15:54:32.520][main][info] Registered shortcuts
+[2026-01-17 15:54:32.528][main][info] Created tray icon
+[2026-01-17 15:54:32.612][main][info] Created main window
+[2026-01-17 15:54:32.618][main][info] Created YTM view
+[2026-01-17 15:54:32.618][main][info] Setup taskbar features
+[2026-01-17 15:54:32.619][main][info] Integration update: Zoom Factor
+[2026-01-17 15:54:32.619][main][info] Starting enabled integrations
+[2026-01-17 15:54:33.477][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2026-01-17 15:54:33.478][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-17 15:54:38.872][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-17 15:54:38.873][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-17 15:54:38.873][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-17 15:57:13.019][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-17 15:57:18.110][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-17 15:57:18.118][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-17 15:57:18.119][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-17 16:03:29.385][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 16:15:03.408][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 16:40:57.262][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 16:47:24.246][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 16:51:11.816][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 16:51:42.197][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 17:01:55.455][main][info] Application launched
+[2026-01-17 17:01:55.461][main][info] Handling protocol url --enable-sandbox
+[2026-01-17 17:02:12.967][renderer][error] Uncaught Error: PlayerProxy error when creating global callback
+[2026-01-17 17:02:13.261][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https:/[REDACTED] has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-17 17:54:17.124][main][info] Application quitting
+
+
+[2026-01-18 00:03:59.144][main][info] Application launched
+[2026-01-18 00:03:59.198][main][info] Application set as default protcol client for 'ytmd'
+[2026-01-18 00:03:59.239][main][info] Created memory store
+[2026-01-18 00:03:59.252][main][info] Created electron store
+[2026-01-18 00:03:59.729][main][info] Application ready
+[2026-01-18 00:03:59.731][main][info] Setup IPC handlers
+[2026-01-18 00:03:59.734][main][info] Setup permission handlers
+[2026-01-18 00:03:59.735][main][info] Unregistered shortcuts
+[2026-01-18 00:03:59.735][main][info] Registered shortcuts
+[2026-01-18 00:03:59.743][main][info] Created tray icon
+[2026-01-18 00:03:59.842][main][info] Created main window
+[2026-01-18 00:03:59.848][main][info] Created YTM view
+[2026-01-18 00:03:59.849][main][info] Setup taskbar features
+[2026-01-18 00:03:59.849][main][info] Integration update: Zoom Factor
+[2026-01-18 00:03:59.850][main][info] Starting enabled integrations
+[2026-01-18 00:04:00.826][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2026-01-18 00:04:00.827][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-18 00:04:07.760][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 00:04:07.763][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 00:04:07.764][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 00:08:47.797][renderer][error] Uncaught Error: PlayerProxy error when creating global callback
+[2026-01-18 00:08:47.827][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-18 00:09:48.465][main][info] Application quitting
+
+
+[2026-01-18 00:09:54.776][main][info] Application launched
+[2026-01-18 00:09:54.839][main][info] Application set as default protcol client for 'ytmd'
+[2026-01-18 00:09:54.893][main][info] Created memory store
+[2026-01-18 00:09:54.906][main][info] Created electron store
+[2026-01-18 00:09:55.156][main][info] Application ready
+[2026-01-18 00:09:55.158][main][info] Setup IPC handlers
+[2026-01-18 00:09:55.160][main][info] Setup permission handlers
+[2026-01-18 00:09:55.161][main][info] Unregistered shortcuts
+[2026-01-18 00:09:55.162][main][info] Registered shortcuts
+[2026-01-18 00:09:55.170][main][info] Created tray icon
+[2026-01-18 00:09:55.288][main][info] Created main window
+[2026-01-18 00:09:55.298][main][info] Created YTM view
+[2026-01-18 00:09:55.299][main][info] Setup taskbar features
+[2026-01-18 00:09:55.299][main][info] Integration update: Zoom Factor
+[2026-01-18 00:09:55.300][main][info] Starting enabled integrations
+[2026-01-18 00:09:56.489][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2026-01-18 00:09:56.490][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-18 00:12:18.373][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 00:12:18.375][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 00:12:18.375][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 00:26:17.842][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-18 00:35:36.229][main][info] Application quitting
+
+
+[2026-01-18 17:42:43.040][main][info] Application launched
+[2026-01-18 17:42:43.090][main][info] Application set as default protcol client for 'ytmd'
+[2026-01-18 17:42:43.123][main][info] Created memory store
+[2026-01-18 17:42:43.135][main][info] Created electron store
+[2026-01-18 17:42:43.570][main][info] Application ready
+[2026-01-18 17:42:43.573][main][info] Setup IPC handlers
+[2026-01-18 17:42:43.575][main][info] Setup permission handlers
+[2026-01-18 17:42:43.576][main][info] Unregistered shortcuts
+[2026-01-18 17:42:43.577][main][info] Registered shortcuts
+[2026-01-18 17:42:43.585][main][info] Created tray icon
+[2026-01-18 17:42:43.682][main][info] Created main window
+[2026-01-18 17:42:43.688][main][info] Created YTM view
+[2026-01-18 17:42:43.688][main][info] Setup taskbar features
+[2026-01-18 17:42:43.689][main][info] Integration update: Zoom Factor
+[2026-01-18 17:42:43.689][main][info] Starting enabled integrations
+[2026-01-18 17:42:44.761][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2026-01-18 17:42:44.762][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-18 17:43:01.743][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 17:43:01.744][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 17:43:01.745][renderer][error] requestStorageAccessFor: Permission denied.
+[2026-01-18 17:47:35.085][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-18 18:03:28.504][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-18 18:07:33.766][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-18 19:20:05.899][renderer][error] Access to XMLHttpRequest at 'https://www.youtube.com/[REDACTED] from origin 'https://music.youtube.com' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+[2026-01-18 19:32:00.090][main][info] Application quitting
+
+
+[2026-01-19 22:10:10.449][main][info] Application launched
+[2026-01-19 22:10:10.473][main][info] Application set as default protcol client for 'ytmd'
+[2026-01-19 22:10:10.493][main][info] Created memory store
+[2026-01-19 22:10:10.499][main][info] Created electron store
+[2026-01-19 22:10:10.649][main][info] Application ready
+[2026-01-19 22:10:10.650][main][info] Setup IPC handlers
+[2026-01-19 22:10:10.652][main][info] Setup permission handlers
+[2026-01-19 22:10:10.653][main][info] Unregistered shortcuts
+[2026-01-19 22:10:10.653][main][info] Registered shortcuts
+[2026-01-19 22:10:10.659][main][info] Created tray icon
+[2026-01-19 22:10:10.727][main][info] Created main window
+[2026-01-19 22:10:10.732][main][info] Created YTM view
+[2026-01-19 22:10:10.732][main][info] Setup taskbar features
+[2026-01-19 22:10:10.732][main][info] Integration update: Zoom Factor
+[2026-01-19 22:10:10.732][main][info] Starting enabled integrations
+[2026-01-19 22:10:12.055][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2026-01-19 22:10:12.055][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2026-01-19 22:10:12.416][main][info] Application quitting
+
+

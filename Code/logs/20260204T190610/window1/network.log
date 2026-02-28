@@ -1,0 +1,4 @@
+2026-02-04 19:28:11.203 [error] #21: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest - error GET Canceled
+2026-02-04 19:28:11.203 [error] #22: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mrcrowl/hg/latest - error GET Canceled
+2026-02-04 19:28:11.204 [error] #23: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-pull-request-github/latest - error GET Canceled
+2026-02-04 19:28:11.204 [error] #24: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled

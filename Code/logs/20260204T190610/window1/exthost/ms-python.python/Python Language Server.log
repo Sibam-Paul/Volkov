@@ -1,0 +1,38 @@
+2026-02-04 19:28:37.324 [info] Client: Pylance client (2025.10.4) started with python extension (2026.0.0)
+2026-02-04 19:28:38.447 [info] (23302): Server root directory: file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-02-04 19:28:38.448 [info] (23302): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-02-04 19:28:38.467 [info] (23302): Starting service instance "Blockchain-Based-Fake-News-Detection-Network" for workspace "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network"
+2026-02-04 19:28:39.726 [info] (23302): Loading background bundle file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network...
+2026-02-04 19:28:39.823 [info] (23302): Starting Mcp server id:4489 ...
+2026-02-04 19:28:39.863 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Setting environmentName for service "Blockchain-Based-Fake-News-Detection-Network": "3.14.2 (venv venv)"
+2026-02-04 19:28:39.863 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Setting pythonPath for service "Blockchain-Based-Fake-News-Detection-Network": "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+2026-02-04 19:28:39.864 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): No include entries specified; assuming /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network
+2026-02-04 19:28:39.865 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Auto-excluding **/node_modules
+2026-02-04 19:28:39.865 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Auto-excluding **/__pycache__
+2026-02-04 19:28:39.865 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Auto-excluding **/.*
+2026-02-04 19:28:39.905 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Assuming Python version 3.14.2.final.0
+2026-02-04 19:28:40.001 [info] (23302): Starting service instance "<default>" for workspace ""
+2026-02-04 19:28:40.001 [info] (23302): Loading background bundle file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2026-02-04 19:28:40.017 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Auto-excluding /home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv
+2026-02-04 19:28:40.018 [info] (23302): FG(Blockchain-Based-Fake-News-Detection-Network): Found 34 source files
+2026-02-04 19:28:40.025 [info] (23302): Settings have not changed. Skipping update.
+2026-02-04 19:28:40.091 [info] (23302): FG(<default>): Setting environmentName for service "<default>": "3.14.2 (venv venv)"
+2026-02-04 19:28:40.091 [info] (23302): FG(<default>): Setting pythonPath for service "<default>": "/home/sibam/projects/Blockchain-Based-Fake-News-Detection-Network/venv/bin/python"
+2026-02-04 19:28:40.091 [info] (23302): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-02-04 19:28:40.091 [info] (23302): FG(<default>): Auto-excluding **/node_modules
+2026-02-04 19:28:40.091 [info] (23302): FG(<default>): Auto-excluding **/__pycache__
+2026-02-04 19:28:40.091 [info] (23302): FG(<default>): Auto-excluding **/.*
+2026-02-04 19:28:40.145 [info] (23302): FG(<default>): Assuming Python version 3.14.2.final.0
+2026-02-04 19:28:40.310 [error] (23302): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-02-04 19:28:40.311 [info] (23302): FG(<default>): No source files found.
+2026-02-04 19:28:40.786 [info] (23302): PQ(Blockchain-Based-Fake-News-Detection-Network): Priority queue background worker(2) root directory: file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-02-04 19:28:40.788 [info] (23302): PQ(Blockchain-Based-Fake-News-Detection-Network): Priority queue background worker(2) started
+2026-02-04 19:28:41.061 [info] (23302): PQ(<default>): Priority queue background worker(4) root directory: file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-02-04 19:28:41.064 [info] (23302): PQ(<default>): Priority queue background worker(4) started
+2026-02-04 19:28:41.214 [info] (23302): BG(Blockchain-Based-Fake-News-Detection-Network): Loaded external background bundle file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-02-04 19:28:41.459 [info] (23302): BG(<default>): Loaded external background bundle file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-02-04 20:10:51.728 [info] (23302): IDX(Blockchain-Based-Fake-News-Detection-Network): Indexer background runner(5) root directory: file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (refresh)
+2026-02-04 20:10:51.729 [info] (23302): IDX(Blockchain-Based-Fake-News-Detection-Network): Indexing(5) started
+2026-02-04 20:10:52.170 [info] (23302): IDX(Blockchain-Based-Fake-News-Detection-Network): scanned(5) 47 files over 1 exec env
+2026-02-04 20:10:52.786 [info] (23302): IDX(Blockchain-Based-Fake-News-Detection-Network): indexed(5) 47 files over 1 exec env
+2026-02-04 20:10:52.802 [info] (23302): IDX(Blockchain-Based-Fake-News-Detection-Network): Indexing finished(5).

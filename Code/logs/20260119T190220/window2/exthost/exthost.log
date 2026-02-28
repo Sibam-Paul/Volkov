@@ -1,0 +1,21 @@
+2026-01-19 19:02:25.063 [info] Extension host with pid 9818 started
+2026-01-19 19:02:25.063 [info] Skipping acquiring lock for /home/sibam/.config/Code/User/workspaceStorage/52ef30a19622817f37d11f03144d1ba9.
+2026-01-19 19:02:25.346 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-19 19:02:25.411 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-19 19:02:25.453 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-01-19 19:02:27.440 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-19 19:02:27.503 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-01-19 19:02:27.925 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-19 19:02:28.024 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-19 19:02:28.577 [info] Eager extensions activated
+2026-01-19 19:02:28.596 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-19 19:02:28.602 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-19 19:02:28.641 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-01-19 19:02:29.036 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at yZt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:520:10001)
+2026-01-19 19:02:30.014 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-19 19:02:30.029 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-19 19:02:30.042 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-01-19 19:02:30.099 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-01-19 19:14:12.582 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-19 19:14:12.742 [info] Extension host with pid 9818 exiting with code 0

@@ -1,0 +1,15 @@
+2026/02/26-20:42:32.272 781 Reusing MANIFEST /home/sibam/.config/chromium/Default/IndexedDB/chrome-extension_bkkbcggnhapdmkeljlodobbkopceiche_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/26-20:42:32.272 781 Recovering log #38
+2026/02/26-20:42:32.297 781 Reusing old log /home/sibam/.config/chromium/Default/IndexedDB/chrome-extension_bkkbcggnhapdmkeljlodobbkopceiche_0.indexeddb.leveldb/000038.log 
+2026/02/26-20:42:32.378 784 Level-0 table #41: started
+2026/02/26-20:42:32.394 784 Level-0 table #41: 1127949 bytes OK
+2026/02/26-20:42:32.400 784 Delete type=0 #38
+2026/02/26-20:42:32.400 782 Compacting 4@0 + 1@1 files
+2026/02/26-20:42:32.455 782 Generated table #42@0: 22209 keys, 501336 bytes
+2026/02/26-20:42:32.455 782 Compacted 4@0 + 1@1 files => 501336 bytes
+2026/02/26-20:42:32.460 782 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/26-20:42:32.461 782 Delete type=2 #35
+2026/02/26-20:42:32.461 782 Delete type=2 #41
+2026/02/26-20:42:32.461 782 Delete type=2 #37
+2026/02/26-20:42:32.461 782 Delete type=2 #32
+2026/02/26-20:42:32.461 782 Delete type=2 #29

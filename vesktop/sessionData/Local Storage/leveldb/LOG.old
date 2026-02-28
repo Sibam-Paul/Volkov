@@ -1,0 +1,6 @@
+2026/02/26-10:07:36.774 166d Reusing MANIFEST /home/sibam/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/02/26-10:07:36.786 166d Recovering log #46
+2026/02/26-10:07:36.786 166d Reusing old log /home/sibam/.config/vesktop/sessionData/Local Storage/leveldb/000046.log 
+2026/02/26-10:12:51.093 1701 Level-0 table #50: started
+2026/02/26-10:12:51.102 1701 Level-0 table #50: 43910 bytes OK
+2026/02/26-10:12:51.108 1701 Delete type=0 #46

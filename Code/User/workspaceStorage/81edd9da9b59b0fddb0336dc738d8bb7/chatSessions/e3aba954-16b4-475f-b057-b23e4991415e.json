@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "responderUsername": "",
+  "initialLocation": "panel",
+  "requests": [],
+  "sessionId": "e3aba954-16b4-475f-b057-b23e4991415e",
+  "creationDate": 1768646426702,
+  "lastMessageDate": 1768646426702,
+  "hasPendingEdits": false,
+  "inputState": {
+    "contrib": {
+      "chatDynamicVariableModel": []
+    },
+    "attachments": [],
+    "mode": {
+      "id": "agent",
+      "kind": "agent"
+    },
+    "selectedModel": {
+      "identifier": "copilot/auto",
+      "metadata": {
+        "extension": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "id": "auto",
+        "vendor": "copilot",
+        "name": "Auto",
+        "family": "claude-haiku-4.5",
+        "detail": "10% discount",
+        "tooltip": "Auto selects the best model for your request based on capacity and performance. Auto is given a 10% discount.",
+        "version": "claude-haiku-4.5",
+        "maxInputTokens": 127805,
+        "maxOutputTokens": 16000,
+        "auth": {
+          "providerLabel": "GitHub Copilot Chat",
+          "accountLabel": "Sibam-Paul"
+        },
+        "isDefault": true,
+        "isUserSelectable": true,
+        "modelPickerCategory": {
+          "label": "",
+          "order": -9007199254740991
+        },
+        "capabilities": {
+          "vision": true,
+          "toolCalling": true,
+          "agentMode": true
+        }
+      }
+    },
+    "inputText": "",
+    "selections": [
+      {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1,
+        "selectionStartLineNumber": 1,
+        "selectionStartColumn": 1,
+        "positionLineNumber": 1,
+        "positionColumn": 1
+      }
+    ]
+  }
+}

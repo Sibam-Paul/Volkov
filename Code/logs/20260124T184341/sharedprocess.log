@@ -1,0 +1,18 @@
+2026-01-24 18:43:49.781 [info] Getting Manifest... github.copilot-chat
+2026-01-24 18:43:49.784 [info] Getting Manifest... pkief.material-icon-theme
+2026-01-24 18:43:49.797 [info] Getting Manifest... github.copilot-chat
+2026-01-24 18:43:49.798 [info] Getting Manifest... pkief.material-icon-theme
+2026-01-24 18:43:50.296 [info] Installing extension: pkief.material-icon-theme {"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sibam/.vscode/extensions/extensions.json","path":"/home/sibam/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-24 18:43:50.297 [info] Extension is already requested to install pkief.material-icon-theme vscode-userdata:/home/sibam/.vscode/extensions/extensions.json
+2026-01-24 18:43:54.050 [info] Extension signature verification result for pkief.material-icon-theme: Success. Internal Code: 0. Executed: true. Duration: 1108ms.
+2026-01-24 18:43:55.410 [info] Extracted extension to file:///home/sibam/.vscode/extensions/pkief.material-icon-theme-5.31.0: pkief.material-icon-theme
+2026-01-24 18:43:55.482 [info] Renamed to /home/sibam/.vscode/extensions/pkief.material-icon-theme-5.31.0
+2026-01-24 18:43:55.527 [info] Marked extension as removed pkief.material-icon-theme-5.30.0
+2026-01-24 18:43:55.536 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/sibam/.vscode/extensions/extensions.json
+2026-01-24 18:43:56.745 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sibam/.vscode/extensions/extensions.json","path":"/home/sibam/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-24 18:43:57.448 [info] Extension is already requested to install github.copilot-chat vscode-userdata:/home/sibam/.vscode/extensions/extensions.json
+2026-01-24 18:44:10.495 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 794ms.
+2026-01-24 18:44:10.935 [info] Extracted extension to file:///home/sibam/.vscode/extensions/github.copilot-chat-0.36.2: github.copilot-chat
+2026-01-24 18:44:10.959 [info] Renamed to /home/sibam/.vscode/extensions/github.copilot-chat-0.36.2
+2026-01-24 18:44:10.991 [info] Marked extension as removed github.copilot-chat-0.36.1
+2026-01-24 18:44:10.997 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/sibam/.vscode/extensions/extensions.json

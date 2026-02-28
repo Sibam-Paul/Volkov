@@ -1,0 +1,15 @@
+2026-02-28 13:26:12.553 [info] Started local extension host with pid 2840.
+2026-02-28 13:26:14.480 [info] MCP Registry configured: https://api.mcp.github.com
+2026-02-28 13:26:14.685 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-02-28 13:26:15.854 [error] [Extension Host] (node:2840) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-28 13:26:15.857 [error] [Extension Host] (node:2840) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-02-28 13:26:15.918 [info] [perf] Render performance baseline is 49ms
+2026-02-28 13:26:17.510 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-pylance, ms-python.vscode-python-envs
+2026-02-28 13:26:17.513 [error] chatParticipant must be declared in package.json: claude-code
+2026-02-28 13:26:18.300 [error] Failed to fetch MCP registry providers Server returned 404
+2026-02-28 13:26:18.652 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 13:26:34.238 [error] An unknown error occurred. Please consult the log for more details.
+2026-02-28 13:34:48.814 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-02-28 13:40:43.946 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-02-28 13:42:00.914 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

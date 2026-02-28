@@ -1,0 +1,27 @@
+2026-02-04 19:06:13.430 [info] Marked extension as removed github.copilot-chat-0.36.1
+2026-02-04 19:06:13.463 [info] Deleted marked for removal extension from disk pkief.material-icon-theme /home/sibam/.vscode/extensions/pkief.material-icon-theme-5.30.0
+2026-02-04 19:06:13.467 [info] Deleted marked for removal extension from disk github.copilot-chat /home/sibam/.vscode/extensions/github.copilot-chat-0.36.1
+2026-02-04 19:28:11.222 [info] Getting Manifest... ms-python.python
+2026-02-04 19:28:11.427 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sibam/.vscode/extensions/extensions.json","path":"/home/sibam/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"}}
+2026-02-04 19:28:12.016 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-02-04 19:28:12.092 [info] Getting Manifest... ms-python.debugpy
+2026-02-04 19:28:12.150 [info] Getting Manifest... ms-python.vscode-pylance
+2026-02-04 19:28:12.213 [info] Installing extension: ms-python.vscode-python-envs {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sibam/.vscode/extensions/extensions.json","path":"/home/sibam/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-02-04 19:28:12.213 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sibam/.vscode/extensions/extensions.json","path":"/home/sibam/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-02-04 19:28:12.213 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sibam/.vscode/extensions/extensions.json","path":"/home/sibam/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-02-04 19:28:21.228 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 989ms.
+2026-02-04 19:28:23.296 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 883ms.
+2026-02-04 19:28:23.512 [info] Extracted extension to file:///home/sibam/.vscode/extensions/ms-python.vscode-python-envs-1.16.0-linux-x64: ms-python.vscode-python-envs
+2026-02-04 19:28:23.530 [info] Renamed to /home/sibam/.vscode/extensions/ms-python.vscode-python-envs-1.16.0-linux-x64
+2026-02-04 19:28:25.383 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 884ms.
+2026-02-04 19:28:25.640 [info] Extracted extension to file:///home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4: ms-python.vscode-pylance
+2026-02-04 19:28:25.904 [info] Renamed to /home/sibam/.vscode/extensions/ms-python.vscode-pylance-2025.10.4
+2026-02-04 19:28:26.862 [info] Extracted extension to file:///home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64: ms-python.python
+2026-02-04 19:28:26.937 [info] Renamed to /home/sibam/.vscode/extensions/ms-python.python-2026.0.0-linux-x64
+2026-02-04 19:28:32.356 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 1244ms.
+2026-02-04 19:28:32.753 [info] Extracted extension to file:///home/sibam/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64: ms-python.debugpy
+2026-02-04 19:28:32.773 [info] Renamed to /home/sibam/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64
+2026-02-04 19:28:32.806 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/sibam/.vscode/extensions/extensions.json
+2026-02-04 19:28:32.807 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/sibam/.vscode/extensions/extensions.json
+2026-02-04 19:28:32.807 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/sibam/.vscode/extensions/extensions.json
+2026-02-04 19:28:32.807 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/sibam/.vscode/extensions/extensions.json

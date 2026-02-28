@@ -1,0 +1,16 @@
+2026-01-24 18:43:44.401 [info] Started local extension host with pid 2616.
+2026-01-24 18:43:46.881 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-24 18:43:47.206 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-24 18:43:47.952 [error] [Extension Host] (node:2616) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-24 18:43:47.963 [error] [Extension Host] (node:2616) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-01-24 18:43:48.340 [info] [perf] Render performance baseline is 59ms
+2026-01-24 18:43:48.767 [info] Auto updating outdated extensions. github.copilot-chat, pkief.material-icon-theme
+2026-01-24 18:43:49.908 [error] chatParticipant must be declared in package.json: claude-code
+2026-01-24 18:43:50.296 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-24 18:44:10.993 [error] Unknown error while installing extension github.copilot-chat: Unknown: Unknown error while installing extension github.copilot-chat
+    at Wh.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)
+2026-01-24 18:44:33.907 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/sibam/.vscode/extensions/.934f6a85-777a-4752-b76b-ab2032bf62bd/dist/extension/web' failed: No such file or directory (EUNKNOWN) (path: /home/sibam)
+2026-01-24 18:44:33.907 [error] [File Watcher (universal)] inotify_add_watch on '/home/sibam/.vscode/extensions/.934f6a85-777a-4752-b76b-ab2032bf62bd/dist/extension/web' failed: No such file or directory
+2026-01-24 18:45:28.553 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-01-24 18:45:34.083 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

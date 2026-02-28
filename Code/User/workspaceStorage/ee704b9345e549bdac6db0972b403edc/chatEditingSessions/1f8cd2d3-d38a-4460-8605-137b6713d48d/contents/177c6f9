@@ -1,0 +1,176 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║            OMARCHY SCREENSAVER - QUICK REFERENCE CARD                     ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ INSTALLATION (One-time setup)                                             │
+└───────────────────────────────────────────────────────────────────────────┘
+
+# 1. Install dependencies
+sudo pacman -S python-terminaltexteffects hyprland hypridle alacritty jq
+
+# 2. Create directories
+mkdir -p ~/.local/bin ~/.config/screensaver
+
+# 3. Create ASCII art
+figlet "YOUR NAME" > ~/.config/screensaver/art.txt
+
+# 4. Copy scripts
+cp ~/screensaver-standalone.sh ~/.local/bin/screensaver-cmd
+cp ~/screensaver-launcher.sh ~/.local/bin/screensaver-launch
+chmod +x ~/.local/bin/screensaver-{cmd,launch}
+
+# 5. Add to Hyprland config (~/.config/hypr/hyprland.conf)
+windowrule = fullscreen on, class:^(my.screensaver)$
+windowrule = float on, class:^(my.screensaver)$
+exec-once = hypridle
+
+# 6. Create hypridle config (~/.config/hypr/hypridle.conf)
+cat > ~/.config/hypr/hypridle.conf << 'EOF'
+general {
+    lock_cmd = loginctl lock-session
+}
+listener {
+    timeout = 150
+    on-timeout = ~/.local/bin/screensaver-launch
+}
+EOF
+
+# 7. Reload Hyprland or start hypridle
+hypridle &
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ COMMON COMMANDS                                                            │
+└───────────────────────────────────────────────────────────────────────────┘
+
+# Test screensaver
+~/.local/bin/screensaver-cmd
+
+# Launch on all monitors
+~/.local/bin/screensaver-launch
+
+# List all TTE effects
+tte --list-effects
+
+# Test TTE with specific effect
+tte -i ~/.config/screensaver/art.txt --effect-name matrix
+
+# Check if hypridle running
+ps aux | grep hypridle
+
+# Kill all screensavers
+pkill -f my.screensaver
+
+# Watch hypridle logs
+journalctl --user -f | grep hypridle
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ FILE LOCATIONS                                                             │
+└───────────────────────────────────────────────────────────────────────────┘
+
+~/.local/bin/screensaver-launch     Main launcher script
+~/.local/bin/screensaver-cmd        Screensaver command
+~/.config/screensaver/art.txt       Your ASCII art
+~/.config/hypr/hypridle.conf        Idle detection config
+~/.config/hypr/hyprland.conf        Window rules
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ CUSTOMIZATION QUICK EDITS                                                 │
+└───────────────────────────────────────────────────────────────────────────┘
+
+# Change timeout (edit ~/.config/hypr/hypridle.conf)
+timeout = 300  # Change from 150 to 300 (5 minutes)
+
+# Use specific effect instead of random (edit ~/.local/bin/screensaver-cmd)
+--effect-name matrix  # Replace --random-effect with this
+
+# Change font size (edit ~/.local/bin/screensaver-launcher.sh)
+-o font.size=24  # Change from 18 to 24
+
+# Change ASCII art
+echo "NEW TEXT" | figlet > ~/.config/screensaver/art.txt
+
+# Disable screensaver
+mkdir -p ~/.local/state/screensaver
+touch ~/.local/state/screensaver/disabled
+
+# Re-enable screensaver
+rm ~/.local/state/screensaver/disabled
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ POPULAR TTE EFFECTS                                                        │
+└───────────────────────────────────────────────────────────────────────────┘
+
+matrix        Matrix movie falling characters
+fireworks     Explosive firework animations
+rain          Falling rain effect
+decrypt       Decryption sequence animation
+synthgrid     Retro synthwave grid
+blackhole     Text sucked into black hole
+beams         Light beam scanning
+scattered     Characters assembling from scatter
+slide         Text sliding into place
+pour          Text pouring like liquid
+waves         Wave effect
+orbittingvolley  Orbiting projectiles
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ TROUBLESHOOTING                                                            │
+└───────────────────────────────────────────────────────────────────────────┘
+
+Problem: "TTE not found"
+Fix: sudo pacman -S python-terminaltexteffects
+
+Problem: "ASCII art file not found"
+Fix: figlet "TEST" > ~/.config/screensaver/art.txt
+
+Problem: Screensaver doesn't auto-start
+Fix: Check hypridle is running: ps aux | grep hypridle
+     Start if needed: hypridle &
+
+Problem: Multiple instances running
+Fix: pkill -f my.screensaver
+
+Problem: Cursor doesn't hide
+Fix: This is a Hyprland feature, ensure you're using recent version
+
+Problem: Wrong terminal opens
+Fix: Edit ~/.local/bin/screensaver-launch and specify your terminal
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ KEY CONCEPTS                                                               │
+└───────────────────────────────────────────────────────────────────────────┘
+
+1. TTE (Terminal Text Effects) - The animation engine that makes it cool
+2. Hypridle - Detects when you're idle and triggers the screensaver
+3. Hyprland - Makes the terminal fullscreen automatically
+4. Bash scripts - Glue everything together and handle input detection
+
+The screensaver is just a fullscreen terminal running TTE!
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ DOCUMENTATION FILES                                                        │
+└───────────────────────────────────────────────────────────────────────────┘
+
+SCREENSAVER_README.md               Quick start guide (5 min setup)
+omarchy_screensaver_analysis.md     Complete deep dive
+screensaver_flow_diagram.txt        Visual flow diagrams
+screensaver_visual_summary.txt      Visual summary
+screensaver_quick_reference.txt     This file
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ THE SIMPLE VERSION (What's really happening)                              │
+└───────────────────────────────────────────────────────────────────────────┘
+
+1. You go idle → Hypridle notices
+2. Hypridle runs: screensaver-launch
+3. Launcher opens fullscreen terminal on each monitor
+4. Terminal runs: screensaver-cmd
+5. Command runs TTE in a loop with random effects
+6. You press a key → Everything exits immediately
+
+That's it! Simple, elegant, beautiful.
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║ Keep this file handy for quick reference!                                ║
+╚═══════════════════════════════════════════════════════════════════════════╝
